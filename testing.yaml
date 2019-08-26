@@ -1,0 +1,5222 @@
+title: SP
+emojis:
+  - name: spock
+    src: ./spock.png
+  - name: magic_wand
+    src: ./magic_wand.png
+  - name: pepehands
+    src: ./pepehands.png
+  - name: ghost-think
+    src: ./ghost-think.png
+  - name: panic_button
+    src: ./panic_button.png
+  - name: bcwarrior
+    src: ./bcwarrior.png
+  - name: datsheffy
+    src: ./datsheffy.png
+  - name: unhappy
+    src: ./unhappy.png
+  - name: kreygasm
+    src: ./kreygasm.png
+  - name: 1
+    src: ./1.png
+  - name: delight
+    src: ./delight.png
+  - name: goosebumps-haunted-mask
+    src: ./goosebumps-haunted-mask.png
+  - name: thinking-fidget
+    src: ./thinking-fidget.gif
+  - name: mau5
+    src: ./mau5.png
+  - name: facepalm3
+    src: ./facepalm3.png
+  - name: juice-monster
+    src: ./juice-monster.png
+  - name: oof
+    src: ./oof.jpeg
+  - name: fast-headphones-on
+    src: ./fast-headphones-on.gif
+  - name: volcania
+    src: ./volcania.png
+  - name: wow
+    src: ./wow.jpeg
+  - name: ttours
+    src: ./ttours.png
+  - name: whisky
+    src: ./whisky.png
+  - name: megusta
+    src: ./megusta.png
+  - name: surprised_obama
+    src: ./surprised_obama.png
+  - name: timeflies
+    src: ./timeflies.jpeg
+  - name: kkona
+    src: ./kkona.png
+  - name: gopro
+    src: ./gopro.png
+  - name: micdrop
+    src: ./micdrop.jpeg
+  - name: leftshark2
+    src: ./leftshark2.png
+  - name: tormund
+    src: ./tormund.jpeg
+  - name: baby-shark-2
+    src: ./baby-shark-2.png
+  - name: deal_with_it
+    src: ./deal_with_it.png
+  - name: spider2
+    src: ./spider2.gif
+  - name: sneaker
+    src: ./sneaker.png
+  - name: miranda-docktor-2
+    src: ./miranda-docktor-2.png
+  - name: mario3
+    src: ./mario3.gif
+  - name: chad
+    src: ./chad.gif
+  - name: yes
+    src: ./yes.gif
+  - name: marshmallow-snow-monster
+    src: ./marshmallow-snow-monster.png
+  - name: humblelife
+    src: ./humblelife.png
+  - name: word
+    src: ./word.png
+  - name: lrak
+    src: ./lrak.png
+  - name: disc_golf
+    src: ./disc_golf.png
+  - name: x-wing
+    src: ./x-wing.png
+  - name: middle_finger_reversed
+    src: ./middle_finger_reversed.png
+  - name: duck-knife
+    src: ./duck-knife.png
+  - name: ghillie
+    src: ./ghillie.png
+  - name: bobmarley
+    src: ./bobmarley.jpeg
+  - name: classy_pbj_time
+    src: ./classy_pbj_time.gif
+  - name: nightbat
+    src: ./nightbat.png
+  - name: bmo2
+    src: ./bmo2.gif
+  - name: bernie_sanders
+    src: ./bernie_sanders.png
+  - name: redcoat
+    src: ./redcoat.png
+  - name: coreos
+    src: ./coreos.png
+  - name: progress
+    src: ./progress.gif
+  - name: scotch
+    src: ./scotch.jpeg
+  - name: mlp
+    src: ./mlp.jpeg
+  - name: business
+    src: ./business.jpeg
+  - name: boredparrot
+    src: ./boredparrot.gif
+  - name: target
+    src: ./target.png
+  - name: no2
+    src: ./no2.png
+  - name: wholefoods
+    src: ./wholefoods.png
+  - name: coolcat
+    src: ./coolcat.png
+  - name: partyfidgetspinner
+    src: ./partyfidgetspinner.gif
+  - name: bfcomeon
+    src: ./bfcomeon.png
+  - name: ninja
+    src: ./ninja.png
+  - name: lakers
+    src: ./lakers.png
+  - name: clojure
+    src: ./clojure.gif
+  - name: hamburgerparrot
+    src: ./hamburgerparrot.gif
+  - name: sarcmark
+    src: ./sarcmark.png
+  - name: this_left
+    src: ./this_left.gif
+  - name: colander
+    src: ./colander.jpeg
+  - name: alert-blue
+    src: ./alert-blue.gif
+  - name: datboi
+    src: ./datboi.gif
+  - name: catdog
+    src: ./catdog.png
+  - name: layers
+    src: ./layers.png
+  - name: hack
+    src: ./hack.gif
+  - name: raised-eyebrow
+    src: ./raised-eyebrow.png
+  - name: strawberry-ice-cream
+    src: ./strawberry-ice-cream.png
+  - name: opera-browser
+    src: ./opera-browser.png
+  - name: needahero
+    src: ./needahero.gif
+  - name: blank
+    src: ./blank.png
+  - name: aliensguy
+    src: ./aliensguy.jpeg
+  - name: mcat
+    src: ./mcat.png
+  - name: poopstar
+    src: ./poopstar.png
+  - name: zoidberg
+    src: ./zoidberg.jpeg
+  - name: bffrustrate
+    src: ./bffrustrate.png
+  - name: youwhy
+    src: ./youwhy.png
+  - name: parrotwave2
+    src: ./parrotwave2.gif
+  - name: notatk
+    src: ./notatk.png
+  - name: skiparrot
+    src: ./skiparrot.gif
+  - name: philosoraptor
+    src: ./philosoraptor.png
+  - name: sven
+    src: ./sven.png
+  - name: starwars
+    src: ./starwars.png
+  - name: 10x
+    src: ./10x.png
+  - name: raising-canes
+    src: ./raising-canes.png
+  - name: asdf
+    src: ./asdf.gif
+  - name: kiddingme
+    src: ./kiddingme.png
+  - name: hyperclap
+    src: ./hyperclap.gif
+  - name: notsureif
+    src: ./notsureif.png
+  - name: kleenex
+    src: ./kleenex.jpeg
+  - name: anna
+    src: ./anna.png
+  - name: party-on
+    src: ./party-on.jpeg
+  - name: yoda
+    src: ./yoda.png
+  - name: luck
+    src: ./luck.png
+  - name: beatdown
+    src: ./beatdown.gif
+  - name: you-tried-animated
+    src: ./you-tried-animated.gif
+  - name: somewhat_metal
+    src: ./somewhat_metal.png
+  - name: git-pull-open
+    src: ./git-pull-open.png
+  - name: otter
+    src: ./otter.png
+  - name: bluesteel
+    src: ./bluesteel.gif
+  - name: guiness
+    src: ./guiness.jpeg
+  - name: photoshop
+    src: ./photoshop.png
+  - name: glowstick
+    src: ./glowstick.gif
+  - name: your-shoes-are-untied
+    src: ./your-shoes-are-untied.png
+  - name: moviepass
+    src: ./moviepass.png
+  - name: thank_you
+    src: ./thank_you.gif
+  - name: ermygerd
+    src: ./ermygerd.gif
+  - name: middleparrot
+    src: ./middleparrot.gif
+  - name: rockstar-can
+    src: ./rockstar-can.jpeg
+  - name: clown2
+    src: ./clown2.png
+  - name: survata
+    src: ./survata.png
+  - name: sqlserver
+    src: ./sqlserver.png
+  - name: spotify
+    src: ./spotify.png
+  - name: spongeblob-doodleblob
+    src: ./spongeblob-doodleblob.png
+  - name: wall
+    src: ./wall.png
+  - name: hulu
+    src: ./hulu.png
+  - name: excellent
+    src: ./excellent.jpeg
+  - name: sadparrot
+    src: ./sadparrot.gif
+  - name: pensive-yeet
+    src: ./pensive-yeet.png
+  - name: doubt
+    src: ./doubt.png
+  - name: golang
+    src: ./golang.png
+  - name: jquery
+    src: ./jquery.png
+  - name: at-here
+    src: ./at-here.png
+  - name: rust
+    src: ./rust.png
+  - name: kappabob
+    src: ./kappabob.png
+  - name: goodwill
+    src: ./goodwill.png
+  - name: gusher-lol
+    src: ./gusher-lol.gif
+  - name: absolute-brain
+    src: ./absolute-brain.gif
+  - name: php
+    src: ./php.png
+  - name: boomroasted
+    src: ./boomroasted.png
+  - name: wolverine
+    src: ./wolverine.gif
+  - name: feels_weird_man
+    src: ./feels_weird_man.png
+  - name: me-too-1
+    src: ./me-too-1.png
+  - name: pivotal-tracker
+    src: ./pivotal-tracker.png
+  - name: dabbing2
+    src: ./dabbing2.jpeg
+  - name: bionicbunion
+    src: ./bionicbunion.png
+  - name: keepo
+    src: ./keepo.png
+  - name: elon-musk
+    src: ./elon-musk.png
+  - name: parrotwave5
+    src: ./parrotwave5.gif
+  - name: okguy
+    src: ./okguy.jpeg
+  - name: snoop_dancing
+    src: ./snoop_dancing.gif
+  - name: lol
+    src: ./lol.png
+  - name: duke
+    src: ./duke.jpeg
+  - name: sebastian
+    src: ./sebastian.png
+  - name: corona
+    src: ./corona.jpeg
+  - name: winky
+    src: ./winky.gif
+  - name: bfsorry
+    src: ./bfsorry.png
+  - name: kappapride
+    src: ./kappapride.png
+  - name: lambda
+    src: ./lambda.png
+  - name: diabeetus
+    src: ./diabeetus.png
+  - name: dancing_penguin
+    src: ./dancing_penguin.gif
+  - name: thought-balloon-center-right
+    src: ./thought-balloon-center-right.png
+  - name: instacart
+    src: ./instacart.png
+  - name: eggplantrick
+    src: ./eggplantrick.png
+  - name: pjharley
+    src: ./pjharley.png
+  - name: 1password
+    src: ./1password.png
+  - name: knuckles_waiting
+    src: ./knuckles_waiting.gif
+  - name: all-hail-up-flipped
+    src: ./all-hail-up-flipped.gif
+  - name: shrek
+    src: ./shrek.png
+  - name: eevee
+    src: ./eevee.png
+  - name: dancing_hotdog
+    src: ./dancing_hotdog.gif
+  - name: rubethecube
+    src: ./rubethecube.gif
+  - name: batchest
+    src: ./batchest.png
+  - name: java-hot-dog
+    src: ./java-hot-dog.png
+  - name: flying-burrito
+    src: ./flying-burrito.png
+  - name: goosebumps
+    src: ./goosebumps.png
+  - name: digital_ocean
+    src: ./digital_ocean.png
+  - name: nerfwar
+    src: ./nerfwar.gif
+  - name: macplus
+    src: ./macplus.png
+  - name: doritos
+    src: ./doritos.png
+  - name: wrong
+    src: ./wrong.gif
+  - name: dramatic_prairie_dog
+    src: ./dramatic_prairie_dog.png
+  - name: silverbullet
+    src: ./silverbullet.jpeg
+  - name: oprah-everyone
+    src: ./oprah-everyone.gif
+  - name: poop-angry
+    src: ./poop-angry.png
+  - name: jaime
+    src: ./jaime.png
+  - name: ansible
+    src: ./ansible.png
+  - name: clippy
+    src: ./clippy.gif
+  - name: sass
+    src: ./sass.png
+  - name: coke
+    src: ./coke.jpeg
+  - name: react
+    src: ./react.png
+  - name: evernote_app
+    src: ./evernote_app.png
+  - name: fb-like
+    src: ./fb-like.gif
+  - name: fliesdown
+    src: ./fliesdown.jpeg
+  - name: aurelia
+    src: ./aurelia.png
+  - name: dwsmirk
+    src: ./dwsmirk.jpeg
+  - name: merica2
+    src: ./merica2.gif
+  - name: swarm_app
+    src: ./swarm_app.png
+  - name: awthanks
+    src: ./awthanks.png
+  - name: gronk-mad
+    src: ./gronk-mad.png
+  - name: back_away
+    src: ./back_away.gif
+  - name: impossibru
+    src: ./impossibru.png
+  - name: grunt
+    src: ./grunt.png
+  - name: yay
+    src: ./yay.gif
+  - name: angry_trump
+    src: ./angry_trump.jpeg
+  - name: kirby-blob
+    src: ./kirby-blob.png
+  - name: crochet
+    src: ./crochet.png
+  - name: smores
+    src: ./smores.jpeg
+  - name: pleading
+    src: ./pleading.png
+  - name: thinking_wtf
+    src: ./thinking_wtf.gif
+  - name: portalparrot
+    src: ./portalparrot.gif
+  - name: party-ryan
+    src: ./party-ryan.png
+  - name: parrotshufflefurther
+    src: ./parrotshufflefurther.gif
+  - name: parrotshuffle
+    src: ./parrotshuffle.gif
+  - name: awesome-dance
+    src: ./awesome-dance.gif
+  - name: mechanical-arm-flipped
+    src: ./mechanical-arm-flipped.png
+  - name: catfish
+    src: ./catfish.png
+  - name: ayy_lmao
+    src: ./ayy_lmao.gif
+  - name: gavel
+    src: ./gavel.png
+  - name: challengeaccepted
+    src: ./challengeaccepted.jpeg
+  - name: snapchat
+    src: ./snapchat.jpeg
+  - name: headphones-on
+    src: ./headphones-on.gif
+  - name: firehouse
+    src: ./firehouse.png
+  - name: chuck_norris
+    src: ./chuck_norris.png
+  - name: chickendance
+    src: ./chickendance.gif
+  - name: daisy-duck
+    src: ./daisy-duck.png
+  - name: notes_minion
+    src: ./notes_minion.png
+  - name: asana2
+    src: ./asana2.png
+  - name: meh
+    src: ./meh.png
+  - name: bandit
+    src: ./bandit.gif
+  - name: companion_cube
+    src: ./companion_cube.png
+  - name: ripepperonis
+    src: ./ripepperonis.png
+  - name: rage1
+    src: ./rage1.png
+  - name: trollmark
+    src: ./trollmark.png
+  - name: tbspicy
+    src: ./tbspicy.png
+  - name: wafflechocolate
+    src: ./wafflechocolate.png
+  - name: instagram2
+    src: ./instagram2.png
+  - name: purpletape
+    src: ./purpletape.png
+  - name: think-earth
+    src: ./think-earth.png
+  - name: metroid
+    src: ./metroid.gif
+  - name: gucci
+    src: ./gucci.png
+  - name: too-spicy
+    src: ./too-spicy.png
+  - name: injured
+    src: ./injured.jpeg
+  - name: pokerface
+    src: ./pokerface.png
+  - name: guinea_pig
+    src: ./guinea_pig.jpeg
+  - name: spongeblob-harold
+    src: ./spongeblob-harold.png
+  - name: referee
+    src: ./referee.png
+  - name: r2d2
+    src: ./r2d2.png
+  - name: brawndo
+    src: ./brawndo.jpeg
+  - name: lanekiffin
+    src: ./lanekiffin.jpeg
+  - name: wtf-left
+    src: ./wtf-left.gif
+  - name: hatched-snake
+    src: ./hatched-snake.png
+  - name: slack-love
+    src: ./slack-love.png
+  - name: whip
+    src: ./whip.png
+  - name: cold-hearted
+    src: ./cold-hearted.png
+  - name: leftshark
+    src: ./leftshark.gif
+  - name: nom-party
+    src: ./nom-party.gif
+  - name: github
+    src: ./github.png
+  - name: magic8ball
+    src: ./magic8ball.jpeg
+  - name: toucan
+    src: ./toucan.png
+  - name: mechanical-leg-flipped
+    src: ./mechanical-leg-flipped.png
+  - name: very_metal
+    src: ./very_metal.gif
+  - name: moose
+    src: ./moose.gif
+  - name: crown-frog
+    src: ./crown-frog.png
+  - name: jspm
+    src: ./jspm.png
+  - name: austin_powers
+    src: ./austin_powers.gif
+  - name: dreamworks
+    src: ./dreamworks.jpeg
+  - name: dumptruck
+    src: ./dumptruck.jpeg
+  - name: spaceman_spiff
+    src: ./spaceman_spiff.png
+  - name: snopes-false
+    src: ./snopes-false.png
+  - name: canary
+    src: ./canary.png
+  - name: tbbaconbiscuit
+    src: ./tbbaconbiscuit.png
+  - name: pitchfork
+    src: ./pitchfork.png
+  - name: bug7
+    src: ./bug7.png
+  - name: tbsausagebiscuit
+    src: ./tbsausagebiscuit.png
+  - name: standup
+    src: ./standup.gif
+  - name: crosshairs
+    src: ./crosshairs.png
+  - name: kanye
+    src: ./kanye.png
+  - name: woodstock
+    src: ./woodstock.png
+  - name: badass
+    src: ./badass.jpeg
+  - name: stan
+    src: ./stan.png
+  - name: shh
+    src: ./shh.png
+  - name: new-relic
+    src: ./new-relic.png
+  - name: mcdonalds
+    src: ./mcdonalds.png
+  - name: capn-crunch
+    src: ./capn-crunch.png
+  - name: paella
+    src: ./paella.png
+  - name: weston
+    src: ./weston.png
+  - name: todd
+    src: ./todd.jpeg
+  - name: wally
+    src: ./wally.png
+  - name: idgaf
+    src: ./idgaf.png
+  - name: fox4
+    src: ./fox4.gif
+  - name: papalparrot
+    src: ./papalparrot.gif
+  - name: owo-sneaky
+    src: ./owo-sneaky.png
+  - name: coding-cowboy
+    src: ./coding-cowboy.gif
+  - name: instinct
+    src: ./instinct.gif
+  - name: arya
+    src: ./arya.png
+  - name: ifyouknowwhatimean
+    src: ./ifyouknowwhatimean.png
+  - name: ivoted
+    src: ./ivoted.png
+  - name: angelparrot
+    src: ./angelparrot.gif
+  - name: clarify
+    src: ./clarify.png
+  - name: liono
+    src: ./liono.png
+  - name: puritan
+    src: ./puritan.jpeg
+  - name: facepalm2
+    src: ./facepalm2.gif
+  - name: evilparrot
+    src: ./evilparrot.gif
+  - name: roz
+    src: ./roz.png
+  - name: celtics
+    src: ./celtics.png
+  - name: n64
+    src: ./n64.gif
+  - name: absolute-kirby
+    src: ./absolute-kirby.png
+  - name: bfrun
+    src: ./bfrun.png
+  - name: hobbes
+    src: ./hobbes.png
+  - name: uneequa
+    src: ./uneequa.gif
+  - name: illustrator
+    src: ./illustrator.png
+  - name: sauron
+    src: ./sauron.jpeg
+  - name: emeril
+    src: ./emeril.jpeg
+  - name: growler
+    src: ./growler.png
+  - name: spongeblob
+    src: ./spongeblob.png
+  - name: pjsalt
+    src: ./pjsalt.png
+  - name: got-any-more-of-them
+    src: ./got-any-more-of-them.png
+  - name: coinbase
+    src: ./coinbase.png
+  - name: tbchickenbiscuit
+    src: ./tbchickenbiscuit.png
+  - name: wololo
+    src: ./wololo.gif
+  - name: mj
+    src: ./mj.gif
+  - name: smiths
+    src: ./smiths.jpeg
+  - name: crockpot
+    src: ./crockpot.png
+  - name: sparta
+    src: ./sparta.png
+  - name: green_bay_packers
+    src: ./green_bay_packers.png
+  - name: sarcasm
+    src: ./sarcasm.jpeg
+  - name: police
+    src: ./police.gif
+  - name: shazamicon
+    src: ./shazamicon.png
+  - name: sonic_sleeping
+    src: ./sonic_sleeping.gif
+  - name: equal
+    src: ./equal.png
+  - name: party-blob
+    src: ./party-blob.gif
+  - name: adam
+    src: ./adam.png
+  - name: drake2
+    src: ./drake2.png
+  - name: wordpress
+    src: ./wordpress.png
+  - name: cheese_wheel
+    src: ./cheese_wheel.png
+  - name: itsatrap
+    src: ./itsatrap.png
+  - name: talk-to-the-hand
+    src: ./talk-to-the-hand.gif
+  - name: hangrykat
+    src: ./hangrykat.png
+  - name: peep
+    src: ./peep.jpeg
+  - name: weird
+    src: ./weird.jpeg
+  - name: nothingness
+    src: ./nothingness.png
+  - name: twitter2
+    src: ./twitter2.png
+  - name: me-either
+    src: ./me-either.png
+  - name: black_hole
+    src: ./black_hole.jpeg
+  - name: lyft
+    src: ./lyft.png
+  - name: gizmo
+    src: ./gizmo.jpeg
+  - name: kerbal_space_program
+    src: ./kerbal_space_program.jpeg
+  - name: austin_powers_rawr
+    src: ./austin_powers_rawr.gif
+  - name: bob
+    src: ./bob.jpeg
+  - name: luigi-dab
+    src: ./luigi-dab.png
+  - name: imposibru
+    src: ./imposibru.png
+  - name: farnsworth
+    src: ./farnsworth.png
+  - name: kirby-human-feet-3
+    src: ./kirby-human-feet-3.png
+  - name: monstertruck
+    src: ./monstertruck.jpeg
+  - name: fpsmarksman
+    src: ./fpsmarksman.png
+  - name: bows
+    src: ./bows.gif
+  - name: verified
+    src: ./verified.png
+  - name: muscle-flipped
+    src: ./muscle-flipped.png
+  - name: french-fry
+    src: ./french-fry.png
+  - name: marshmallow
+    src: ./marshmallow.png
+  - name: crown-chick
+    src: ./crown-chick.png
+  - name: ruhroh
+    src: ./ruhroh.png
+  - name: burn
+    src: ./burn.jpeg
+  - name: travolta
+    src: ./travolta.gif
+  - name: butanimated
+    src: ./butanimated.jpeg
+  - name: ultrafastparrot
+    src: ./ultrafastparrot.gif
+  - name: cavaliers
+    src: ./cavaliers.png
+  - name: parrotright
+    src: ./parrotright.gif
+  - name: timon
+    src: ./timon.png
+  - name: krabby-patty-mask
+    src: ./krabby-patty-mask.png
+  - name: bulls
+    src: ./bulls.png
+  - name: hungry-for-apples
+    src: ./hungry-for-apples.png
+  - name: bw-dab
+    src: ./bw-dab.gif
+  - name: confederacy
+    src: ./confederacy.png
+  - name: visual-basic
+    src: ./visual-basic.png
+  - name: soap
+    src: ./soap.jpeg
+  - name: invisible
+    src: ./invisible.png
+  - name: fuzzyotteroo
+    src: ./fuzzyotteroo.png
+  - name: vagrant
+    src: ./vagrant.png
+  - name: duct_tape
+    src: ./duct_tape.jpeg
+  - name: alot
+    src: ./alot.png
+  - name: confusedparrot
+    src: ./confusedparrot.gif
+  - name: ty
+    src: ./ty.png
+  - name: incognito
+    src: ./incognito.png
+  - name: thuglife
+    src: ./thuglife.png
+  - name: finn
+    src: ./finn.png
+  - name: thancc-left
+    src: ./thancc-left.gif
+  - name: wengermoji
+    src: ./wengermoji.jpeg
+  - name: cox
+    src: ./cox.png
+  - name: santi
+    src: ./santi.png
+  - name: candle2
+    src: ./candle2.png
+  - name: ms-paint
+    src: ./ms-paint.png
+  - name: smack
+    src: ./smack.jpeg
+  - name: dalegribble
+    src: ./dalegribble.png
+  - name: forever_alone
+    src: ./forever_alone.png
+  - name: sweetjesus
+    src: ./sweetjesus.png
+  - name: kafka
+    src: ./kafka.jpeg
+  - name: fox2
+    src: ./fox2.gif
+  - name: bleedpurple
+    src: ./bleedpurple.png
+  - name: ms-powerpoint
+    src: ./ms-powerpoint.png
+  - name: lucy
+    src: ./lucy.png
+  - name: please_minion
+    src: ./please_minion.png
+  - name: metal
+    src: ./metal.png
+  - name: heh
+    src: ./heh.png
+  - name: fleeb
+    src: ./fleeb.png
+  - name: carlton2
+    src: ./carlton2.gif
+  - name: praiseit
+    src: ./praiseit.png
+  - name: kylo_ren
+    src: ./kylo_ren.png
+  - name: metoo
+    src: ./metoo.png
+  - name: cassandra
+    src: ./cassandra.png
+  - name: kapow
+    src: ./kapow.png
+  - name: bored-af
+    src: ./bored-af.png
+  - name: spongeblob-karen
+    src: ./spongeblob-karen.png
+  - name: roo
+    src: ./roo.jpeg
+  - name: pinterest
+    src: ./pinterest.png
+  - name: ferret
+    src: ./ferret.png
+  - name: mickey-mouse
+    src: ./mickey-mouse.png
+  - name: respect
+    src: ./respect.png
+  - name: blondesassyparrot
+    src: ./blondesassyparrot.gif
+  - name: christmasparrot
+    src: ./christmasparrot.gif
+  - name: poop-sad
+    src: ./poop-sad.jpeg
+  - name: happy-goat-flipped
+    src: ./happy-goat-flipped.gif
+  - name: squirtle
+    src: ./squirtle.png
+  - name: chickennugget
+    src: ./chickennugget.jpeg
+  - name: firefox
+    src: ./firefox.png
+  - name: pusheen-animated
+    src: ./pusheen-animated.gif
+  - name: fidgetparrot
+    src: ./fidgetparrot.gif
+  - name: pacers
+    src: ./pacers.png
+  - name: sonic-dance
+    src: ./sonic-dance.gif
+  - name: fb-wow
+    src: ./fb-wow.gif
+  - name: navi-gator
+    src: ./navi-gator.jpeg
+  - name: all_the_things
+    src: ./all_the_things.jpeg
+  - name: wreck-it-ralph-left-fist
+    src: ./wreck-it-ralph-left-fist.png
+  - name: tiara_champion
+    src: ./tiara_champion.png
+  - name: zaxbys
+    src: ./zaxbys.png
+  - name: breather
+    src: ./breather.png
+  - name: kyle
+    src: ./kyle.png
+  - name: sendit
+    src: ./sendit.png
+  - name: sharkleft
+    src: ./sharkleft.gif
+  - name: abradolf-lincler
+    src: ./abradolf-lincler.jpeg
+  - name: permasmug
+    src: ./permasmug.png
+  - name: hassanchop
+    src: ./hassanchop.png
+  - name: typescript
+    src: ./typescript.png
+  - name: stonelightning
+    src: ./stonelightning.png
+  - name: hooli
+    src: ./hooli.png
+  - name: sriracha
+    src: ./sriracha.jpeg
+  - name: indiana_jones
+    src: ./indiana_jones.png
+  - name: finn3
+    src: ./finn3.gif
+  - name: tyler_dg
+    src: ./tyler_dg.png
+  - name: porg
+    src: ./porg.png
+  - name: federation
+    src: ./federation.png
+  - name: think-smart
+    src: ./think-smart.png
+  - name: harold
+    src: ./harold.jpeg
+  - name: yolo
+    src: ./yolo.png
+  - name: still
+    src: ./still.jpeg
+  - name: freemason
+    src: ./freemason.jpeg
+  - name: perl
+    src: ./perl.gif
+  - name: 90
+    src: ./90.png
+  - name: freakinstinkin
+    src: ./freakinstinkin.png
+  - name: gym
+    src: ./gym.png
+  - name: blob-pat
+    src: ./blob-pat.gif
+  - name: hat-tip-2
+    src: ./hat-tip-2.png
+  - name: terraform
+    src: ./terraform.png
+  - name: count_von_count
+    src: ./count_von_count.jpeg
+  - name: supervinlin
+    src: ./supervinlin.png
+  - name: justdoit
+    src: ./justdoit.gif
+  - name: finnadie
+    src: ./finnadie.png
+  - name: pizzaparrot
+    src: ./pizzaparrot.gif
+  - name: yikes2
+    src: ./yikes2.png
+  - name: bread-stapled-to-tree
+    src: ./bread-stapled-to-tree.png
+  - name: homerdisppear
+    src: ./homerdisppear.gif
+  - name: salt
+    src: ./salt.png
+  - name: deal-with-it
+    src: ./deal-with-it.gif
+  - name: karl
+    src: ./karl.png
+  - name: applepie
+    src: ./applepie.png
+  - name: redsox
+    src: ./redsox.png
+  - name: whiskey
+    src: ./whiskey.png
+  - name: mario-block
+    src: ./mario-block.png
+  - name: switch
+    src: ./switch.png
+  - name: explodyparrot
+    src: ./explodyparrot.gif
+  - name: question_block
+    src: ./question_block.gif
+  - name: blob-lamp
+    src: ./blob-lamp.png
+  - name: liverpool
+    src: ./liverpool.png
+  - name: zombie2
+    src: ./zombie2.png
+  - name: sassyparrot
+    src: ./sassyparrot.gif
+  - name: oompa
+    src: ./oompa.jpeg
+  - name: dansgame
+    src: ./dansgame.png
+  - name: ch-dance3
+    src: ./ch-dance3.gif
+  - name: triforce
+    src: ./triforce.png
+  - name: rage2
+    src: ./rage2.png
+  - name: macandcheese
+    src: ./macandcheese.png
+  - name: kramer
+    src: ./kramer.jpeg
+  - name: osdeo
+    src: ./osdeo.png
+  - name: cat5
+    src: ./cat5.png
+  - name: spitting
+    src: ./spitting.png
+  - name: guacamole
+    src: ./guacamole.png
+  - name: evernote
+    src: ./evernote.png
+  - name: ohno
+    src: ./ohno.png
+  - name: amish
+    src: ./amish.gif
+  - name: make_my_logo_bigger_cream
+    src: ./make_my_logo_bigger_cream.png
+  - name: slomoparrot
+    src: ./slomoparrot.gif
+  - name: leia
+    src: ./leia.png
+  - name: pinching_hand_flipped
+    src: ./pinching_hand_flipped.png
+  - name: tarheel2
+    src: ./tarheel2.png
+  - name: aw_yeah_strong
+    src: ./aw_yeah_strong.gif
+  - name: it-wasnt-me
+    src: ./it-wasnt-me.gif
+  - name: klopp
+    src: ./klopp.png
+  - name: blob-in-trash
+    src: ./blob-in-trash.gif
+  - name: vw_logo
+    src: ./vw_logo.png
+  - name: obama
+    src: ./obama.png
+  - name: steelers
+    src: ./steelers.png
+  - name: milleniumfalcon
+    src: ./milleniumfalcon.gif
+  - name: taco-bueno
+    src: ./taco-bueno.png
+  - name: twerk-n-morty
+    src: ./twerk-n-morty.gif
+  - name: pingpong
+    src: ./pingpong.png
+  - name: shocked
+    src: ./shocked.gif
+  - name: water
+    src: ./water.png
+  - name: feels_good
+    src: ./feels_good.png
+  - name: snoopy
+    src: ./snoopy.png
+  - name: mystic2
+    src: ./mystic2.gif
+  - name: shibez
+    src: ./shibez.png
+  - name: gronk-smash
+    src: ./gronk-smash.png
+  - name: gentoo-linux
+    src: ./gentoo-linux.png
+  - name: bowtie
+    src: ./bowtie.png
+  - name: baileys
+    src: ./baileys.jpeg
+  - name: psy
+    src: ./psy.gif
+  - name: sir
+    src: ./sir.png
+  - name: bud_light
+    src: ./bud_light.png
+  - name: owo-face
+    src: ./owo-face.png
+  - name: matrixparrot
+    src: ./matrixparrot.gif
+  - name: snorlax
+    src: ./snorlax.png
+  - name: beachball
+    src: ./beachball.gif
+  - name: i_see_what_you_did_there
+    src: ./i_see_what_you_did_there.png
+  - name: spongeblob-mrs-puff
+    src: ./spongeblob-mrs-puff.png
+  - name: sad
+    src: ./sad.gif
+  - name: turbulent-juice
+    src: ./turbulent-juice.png
+  - name: disappointed2
+    src: ./disappointed2.jpeg
+  - name: think-blob-party
+    src: ./think-blob-party.gif
+  - name: ideas
+    src: ./ideas.png
+  - name: westworld
+    src: ./westworld.png
+  - name: supersad
+    src: ./supersad.png
+  - name: niiice
+    src: ./niiice.png
+  - name: disguised
+    src: ./disguised.jpeg
+  - name: golden-turtle
+    src: ./golden-turtle.png
+  - name: mechanical-leg
+    src: ./mechanical-leg.png
+  - name: lajsf
+    src: ./lajsf.png
+  - name: barf2
+    src: ./barf2.jpeg
+  - name: watching-you
+    src: ./watching-you.jpeg
+  - name: babyrage
+    src: ./babyrage.png
+  - name: arena-gods
+    src: ./arena-gods.png
+  - name: facepalm2
+    src: ./facepalm2.png
+  - name: nauseated
+    src: ./nauseated.png
+  - name: clown-pensive
+    src: ./clown-pensive.png
+  - name: webpack
+    src: ./webpack.png
+  - name: tarheel
+    src: ./tarheel.png
+  - name: yellow-card
+    src: ./yellow-card.png
+  - name: cone
+    src: ./cone.png
+  - name: sailor_moon
+    src: ./sailor_moon.png
+  - name: omgscoots
+    src: ./omgscoots.png
+  - name: 4chan
+    src: ./4chan.png
+  - name: soundsgood
+    src: ./soundsgood.png
+  - name: pallet
+    src: ./pallet.png
+  - name: percent
+    src: ./percent.png
+  - name: talking-on-the-phone-angry
+    src: ./talking-on-the-phone-angry.png
+  - name: content-blocked
+    src: ./content-blocked.png
+  - name: wimpy
+    src: ./wimpy.png
+  - name: slurpee
+    src: ./slurpee.png
+  - name: blep
+    src: ./blep.png
+  - name: very_nice
+    src: ./very_nice.jpeg
+  - name: powerup
+    src: ./powerup.gif
+  - name: tie_fighter
+    src: ./tie_fighter.gif
+  - name: flying_money_with_wings
+    src: ./flying_money_with_wings.gif
+  - name: nachos
+    src: ./nachos.jpeg
+  - name: doom_look
+    src: ./doom_look.gif
+  - name: lilbub
+    src: ./lilbub.png
+  - name: python
+    src: ./python.png
+  - name: wtf2
+    src: ./wtf2.gif
+  - name: cat-typing
+    src: ./cat-typing.gif
+  - name: lifeishard
+    src: ./lifeishard.gif
+  - name: fidget-spinner-with-hand
+    src: ./fidget-spinner-with-hand.gif
+  - name: epicwin
+    src: ./epicwin.png
+  - name: wreck-it-ralph-right-fist
+    src: ./wreck-it-ralph-right-fist.png
+  - name: travisci
+    src: ./travisci.png
+  - name: taylor_swift
+    src: ./taylor_swift.png
+  - name: iron-throne
+    src: ./iron-throne.png
+  - name: pacman
+    src: ./pacman.png
+  - name: cabbige
+    src: ./cabbige.png
+  - name: finger-guns-left
+    src: ./finger-guns-left.png
+  - name: wizard
+    src: ./wizard.jpeg
+  - name: nerd
+    src: ./nerd.png
+  - name: chewbacca
+    src: ./chewbacca.jpeg
+  - name: bojack
+    src: ./bojack.png
+  - name: skipping
+    src: ./skipping.gif
+  - name: parrotmiddle
+    src: ./parrotmiddle.gif
+  - name: rock
+    src: ./rock.gif
+  - name: pikagasp
+    src: ./pikagasp.png
+  - name: orioles
+    src: ./orioles.png
+  - name: selfie-flipped
+    src: ./selfie-flipped.png
+  - name: peekaboo
+    src: ./peekaboo.gif
+  - name: thinking_intensify
+    src: ./thinking_intensify.gif
+  - name: c
+    src: ./c.png
+  - name: slack
+    src: ./slack.png
+  - name: suspect
+    src: ./suspect.png
+  - name: minglee
+    src: ./minglee.png
+  - name: cryingjordan
+    src: ./cryingjordan.png
+  - name: clojure2
+    src: ./clojure2.png
+  - name: dank
+    src: ./dank.png
+  - name: poop-with-nose
+    src: ./poop-with-nose.png
+  - name: npdg
+    src: ./npdg.png
+  - name: chemex
+    src: ./chemex.png
+  - name: trust-fall
+    src: ./trust-fall.png
+  - name: poop-pink
+    src: ./poop-pink.jpeg
+  - name: pmstwin
+    src: ./pmstwin.png
+  - name: pats
+    src: ./pats.gif
+  - name: sp-ship
+    src: ./sp-ship.png
+  - name: truckit
+    src: ./truckit.png
+  - name: pistons
+    src: ./pistons.png
+  - name: microbe
+    src: ./microbe.png
+  - name: fry
+    src: ./fry.png
+  - name: notbad2
+    src: ./notbad2.jpeg
+  - name: mvgame
+    src: ./mvgame.png
+  - name: invisibleparrot
+    src: ./invisibleparrot.gif
+  - name: can_of_worms
+    src: ./can_of_worms.jpeg
+  - name: pikachu_dancing
+    src: ./pikachu_dancing.gif
+  - name: iseewhatyoudidthere
+    src: ./iseewhatyoudidthere.png
+  - name: whatever_minion
+    src: ./whatever_minion.png
+  - name: portal
+    src: ./portal.png
+  - name: osrob
+    src: ./osrob.png
+  - name: success-kid
+    src: ./success-kid.png
+  - name: badpokerface
+    src: ./badpokerface.jpeg
+  - name: brienne
+    src: ./brienne.png
+  - name: thumb_up
+    src: ./thumb_up.gif
+  - name: shyp
+    src: ./shyp.png
+  - name: bmo
+    src: ./bmo.gif
+  - name: noah-joker
+    src: ./noah-joker.png
+  - name: feels
+    src: ./feels.png
+  - name: map
+    src: ./map.png
+  - name: crunchbar
+    src: ./crunchbar.jpeg
+  - name: otter3
+    src: ./otter3.png
+  - name: go
+    src: ./go.png
+  - name: sovjetparrot
+    src: ./sovjetparrot.gif
+  - name: jupplybike
+    src: ./jupplybike.png
+  - name: matt
+    src: ./matt.jpeg
+  - name: thanos
+    src: ./thanos.png
+  - name: paypal
+    src: ./paypal.png
+  - name: kirby-dance
+    src: ./kirby-dance.gif
+  - name: high
+    src: ./high.jpeg
+  - name: elegiggle
+    src: ./elegiggle.png
+  - name: podio
+    src: ./podio.png
+  - name: piggy
+    src: ./piggy.png
+  - name: dance-rainbow
+    src: ./dance-rainbow.gif
+  - name: davy-jones
+    src: ./davy-jones.png
+  - name: otter2
+    src: ./otter2.png
+  - name: timberwolves
+    src: ./timberwolves.png
+  - name: rockets
+    src: ./rockets.png
+  - name: facedesk
+    src: ./facedesk.gif
+  - name: good_job
+    src: ./good_job.gif
+  - name: all-hail-up
+    src: ./all-hail-up.gif
+  - name: pushbullet
+    src: ./pushbullet.png
+  - name: panicbasket
+    src: ./panicbasket.png
+  - name: bfhide
+    src: ./bfhide.png
+  - name: turtle-egg
+    src: ./turtle-egg.png
+  - name: ynab
+    src: ./ynab.png
+  - name: feels-blob-man
+    src: ./feels-blob-man.png
+  - name: crash-bandicoot
+    src: ./crash-bandicoot.png
+  - name: kenny
+    src: ./kenny.png
+  - name: lincoln
+    src: ./lincoln.png
+  - name: wookiemom
+    src: ./wookiemom.gif
+  - name: drone
+    src: ./drone.gif
+  - name: challenge_denied
+    src: ./challenge_denied.jpeg
+  - name: fiestaparrot
+    src: ./fiestaparrot.gif
+  - name: redhead
+    src: ./redhead.png
+  - name: the_dude
+    src: ./the_dude.jpeg
+  - name: me-too-2
+    src: ./me-too-2.png
+  - name: pensive-dab
+    src: ./pensive-dab.png
+  - name: laptop
+    src: ./laptop.png
+  - name: devloper
+    src: ./devloper.jpeg
+  - name: shuffleparrot
+    src: ./shuffleparrot.gif
+  - name: o3o
+    src: ./o3o.png
+  - name: e-bony
+    src: ./e-bony.jpeg
+  - name: hyper-spin-think
+    src: ./hyper-spin-think.gif
+  - name: thats-where-youre-wrong-kiddo
+    src: ./thats-where-youre-wrong-kiddo.png
+  - name: doug
+    src: ./doug.gif
+  - name: bug2
+    src: ./bug2.gif
+  - name: airbnb
+    src: ./airbnb.png
+  - name: thread
+    src: ./thread.png
+  - name: captain_obvious
+    src: ./captain_obvious.png
+  - name: patrick-dab
+    src: ./patrick-dab.png
+  - name: headphones_on
+    src: ./headphones_on.gif
+  - name: älskar-det
+    src: ./älskar-det.png
+  - name: ms-infopath
+    src: ./ms-infopath.png
+  - name: command
+    src: ./command.png
+  - name: boing
+    src: ./boing.gif
+  - name: coggers
+    src: ./coggers.gif
+  - name: dropbear
+    src: ./dropbear.png
+  - name: done
+    src: ./done.png
+  - name: blobble-wobble-flipped
+    src: ./blobble-wobble-flipped.gif
+  - name: dabglasses
+    src: ./dabglasses.png
+  - name: aniboom
+    src: ./aniboom.gif
+  - name: whoa_guys
+    src: ./whoa_guys.png
+  - name: homer-disappear
+    src: ./homer-disappear.gif
+  - name: puke
+    src: ./puke.gif
+  - name: clown-cry
+    src: ./clown-cry.png
+  - name: bonzi
+    src: ./bonzi.png
+  - name: elasticsearch
+    src: ./elasticsearch.png
+  - name: dadcoffee
+    src: ./dadcoffee.png
+  - name: ravens2
+    src: ./ravens2.png
+  - name: metabase
+    src: ./metabase.png
+  - name: candy-corn
+    src: ./candy-corn.png
+  - name: dog-whistle
+    src: ./dog-whistle.png
+  - name: numb
+    src: ./numb.png
+  - name: hat
+    src: ./hat.jpeg
+  - name: ywing
+    src: ./ywing.png
+  - name: easy-chair
+    src: ./easy-chair.png
+  - name: kirby
+    src: ./kirby.gif
+  - name: panda_dance
+    src: ./panda_dance.gif
+  - name: cat4
+    src: ./cat4.png
+  - name: capybara
+    src: ./capybara.jpeg
+  - name: css
+    src: ./css.png
+  - name: mr_rogers
+    src: ./mr_rogers.png
+  - name: smoke_it
+    src: ./smoke_it.gif
+  - name: darth_maul
+    src: ./darth_maul.jpeg
+  - name: pho
+    src: ./pho.gif
+  - name: craig
+    src: ./craig.jpeg
+  - name: tumme-upp
+    src: ./tumme-upp.png
+  - name: trout
+    src: ./trout.jpeg
+  - name: butterbot
+    src: ./butterbot.png
+  - name: punchtrees
+    src: ./punchtrees.png
+  - name: alf
+    src: ./alf.png
+  - name: congaparrot
+    src: ./congaparrot.gif
+  - name: owo-nervous
+    src: ./owo-nervous.png
+  - name: think-b
+    src: ./think-b.png
+  - name: hahaa
+    src: ./hahaa.png
+  - name: sweaty-docker
+    src: ./sweaty-docker.png
+  - name: deadlysnake
+    src: ./deadlysnake.png
+  - name: nyan
+    src: ./nyan.gif
+  - name: netflix
+    src: ./netflix.png
+  - name: sansa
+    src: ./sansa.png
+  - name: tide_pod
+    src: ./tide_pod.png
+  - name: why_not_both
+    src: ./why_not_both.jpeg
+  - name: sintparrot
+    src: ./sintparrot.gif
+  - name: omni
+    src: ./omni.jpeg
+  - name: gif
+    src: ./gif.jpeg
+  - name: poggers
+    src: ./poggers.png
+  - name: supplypike
+    src: ./supplypike.png
+  - name: big-chungus
+    src: ./big-chungus.png
+  - name: evil-morty
+    src: ./evil-morty.png
+  - name: bfbored
+    src: ./bfbored.png
+  - name: present
+    src: ./present.png
+  - name: biblethump
+    src: ./biblethump.png
+  - name: party-kirby
+    src: ./party-kirby.png
+  - name: rick
+    src: ./rick.png
+  - name: fury
+    src: ./fury.gif
+  - name: gronk-happy
+    src: ./gronk-happy.png
+  - name: pumbaa
+    src: ./pumbaa.png
+  - name: gg
+    src: ./gg.png
+  - name: mydudes
+    src: ./mydudes.jpeg
+  - name: bananadance
+    src: ./bananadance.gif
+  - name: deadpool3
+    src: ./deadpool3.png
+  - name: circleci
+    src: ./circleci.png
+  - name: biking
+    src: ./biking.gif
+  - name: comic_sans
+    src: ./comic_sans.png
+  - name: laser_cat
+    src: ./laser_cat.png
+  - name: raptors
+    src: ./raptors.png
+  - name: crying-blood
+    src: ./crying-blood.png
+  - name: revive
+    src: ./revive.png
+  - name: america
+    src: ./america.gif
+  - name: shadylulu
+    src: ./shadylulu.png
+  - name: shufflepartyparrot
+    src: ./shufflepartyparrot.gif
+  - name: minion_wave
+    src: ./minion_wave.png
+  - name: mango
+    src: ./mango.png
+  - name: ubuntu-linux
+    src: ./ubuntu-linux.png
+  - name: hulk_smash
+    src: ./hulk_smash.png
+  - name: luremodule
+    src: ./luremodule.png
+  - name: lgtm_strong
+    src: ./lgtm_strong.png
+  - name: stupidcomputer
+    src: ./stupidcomputer.gif
+  - name: kings
+    src: ./kings.png
+  - name: uleetbackup
+    src: ./uleetbackup.png
+  - name: llama
+    src: ./llama.gif
+  - name: ms-excel
+    src: ./ms-excel.png
+  - name: mario4
+    src: ./mario4.gif
+  - name: hat-tip
+    src: ./hat-tip.png
+  - name: narwhal
+    src: ./narwhal.png
+  - name: pipeline
+    src: ./pipeline.png
+  - name: vaporwave
+    src: ./vaporwave.jpeg
+  - name: pubg-helmet-level3
+    src: ./pubg-helmet-level3.png
+  - name: ch-dance2
+    src: ./ch-dance2.gif
+  - name: harry_potter
+    src: ./harry_potter.jpeg
+  - name: nick-beard
+    src: ./nick-beard.png
+  - name: plum
+    src: ./plum.jpeg
+  - name: yoshi
+    src: ./yoshi.gif
+  - name: alchemy
+    src: ./alchemy.png
+  - name: blink
+    src: ./blink.gif
+  - name: randall-boggs
+    src: ./randall-boggs.png
+  - name: bandcamp
+    src: ./bandcamp.png
+  - name: megalizard
+    src: ./megalizard.gif
+  - name: barf
+    src: ./barf.png
+  - name: trolly
+    src: ./trolly.png
+  - name: denver_broncos
+    src: ./denver_broncos.png
+  - name: no_way_oprah
+    src: ./no_way_oprah.gif
+  - name: miranda
+    src: ./miranda.png
+  - name: rainbow_flag
+    src: ./rainbow_flag.png
+  - name: ss
+    src: ./ss.png
+  - name: snailing
+    src: ./snailing.gif
+  - name: carlton3
+    src: ./carlton3.gif
+  - name: smore
+    src: ./smore.png
+  - name: kappa
+    src: ./kappa.png
+  - name: tesla
+    src: ./tesla.png
+  - name: nyantruck
+    src: ./nyantruck.gif
+  - name: budda
+    src: ./budda.jpeg
+  - name: oldgregg
+    src: ./oldgregg.jpeg
+  - name: c3po2
+    src: ./c3po2.png
+  - name: wavomg
+    src: ./wavomg.gif
+  - name: notorious_big
+    src: ./notorious_big.png
+  - name: micdrop2
+    src: ./micdrop2.gif
+  - name: flyingmoneyparrot
+    src: ./flyingmoneyparrot.gif
+  - name: panic
+    src: ./panic.gif
+  - name: nicmoji_laugh
+    src: ./nicmoji_laugh.gif
+  - name: vue
+    src: ./vue.png
+  - name: memba-berry
+    src: ./memba-berry.png
+  - name: not-typing
+    src: ./not-typing.gif
+  - name: lettice
+    src: ./lettice.png
+  - name: quailman
+    src: ./quailman.jpeg
+  - name: cereal
+    src: ./cereal.png
+  - name: jediparrot
+    src: ./jediparrot.gif
+  - name: taylor_swift2
+    src: ./taylor_swift2.png
+  - name: real_mvp
+    src: ./real_mvp.png
+  - name: monkas-animated
+    src: ./monkas-animated.gif
+  - name: cheese_swiss
+    src: ./cheese_swiss.png
+  - name: 0-red
+    src: ./0-red.png
+  - name: spongeblob-bubblebuddy
+    src: ./spongeblob-bubblebuddy.png
+  - name: warriors
+    src: ./warriors.png
+  - name: flames2
+    src: ./flames2.gif
+  - name: champagne_glasses
+    src: ./champagne_glasses.png
+  - name: man_hiking
+    src: ./man_hiking.png
+  - name: henry-yum
+    src: ./henry-yum.png
+  - name: oskomodo
+    src: ./oskomodo.png
+  - name: person_with_beard
+    src: ./person_with_beard.jpeg
+  - name: hotel-mario
+    src: ./hotel-mario.png
+  - name: york_peppermint_patty
+    src: ./york_peppermint_patty.png
+  - name: thumb_up_left
+    src: ./thumb_up_left.gif
+  - name: hmph
+    src: ./hmph.png
+  - name: hold-nose
+    src: ./hold-nose.png
+  - name: desktop_2
+    src: ./desktop_2.png
+  - name: jenkins_ci
+    src: ./jenkins_ci.png
+  - name: owo-ryan
+    src: ./owo-ryan.png
+  - name: plumbus
+    src: ./plumbus.jpeg
+  - name: raspberry_pi
+    src: ./raspberry_pi.png
+  - name: bfstuck
+    src: ./bfstuck.png
+  - name: hypnotoad
+    src: ./hypnotoad.gif
+  - name: snickers
+    src: ./snickers.png
+  - name: linux-mint
+    src: ./linux-mint.png
+  - name: sadryan
+    src: ./sadryan.png
+  - name: marketplace
+    src: ./marketplace.png
+  - name: hulk
+    src: ./hulk.jpeg
+  - name: slims
+    src: ./slims.jpeg
+  - name: nyancat_big
+    src: ./nyancat_big.gif
+  - name: dna
+    src: ./dna.png
+  - name: finn2
+    src: ./finn2.png
+  - name: defeat_the_porpoise
+    src: ./defeat_the_porpoise.png
+  - name: sadbird
+    src: ./sadbird.png
+  - name: metal2
+    src: ./metal2.gif
+  - name: baymax
+    src: ./baymax.png
+  - name: alive-chat
+    src: ./alive-chat.png
+  - name: jake_wink
+    src: ./jake_wink.gif
+  - name: soundcloud
+    src: ./soundcloud.png
+  - name: mic_drop
+    src: ./mic_drop.jpeg
+  - name: thought-balloon-top-right
+    src: ./thought-balloon-top-right.png
+  - name: 10000000
+    src: ./10000000.png
+  - name: lips-sealed
+    src: ./lips-sealed.gif
+  - name: thundercats
+    src: ./thundercats.png
+  - name: avocado-toast
+    src: ./avocado-toast.png
+  - name: implication
+    src: ./implication.png
+  - name: taco-but-not-tacobot
+    src: ./taco-but-not-tacobot.png
+  - name: chandler_dance
+    src: ./chandler_dance.gif
+  - name: c9-sneaky
+    src: ./c9-sneaky.png
+  - name: coffee-pot
+    src: ./coffee-pot.gif
+  - name: weary-heart
+    src: ./weary-heart.png
+  - name: fedora-linux
+    src: ./fedora-linux.png
+  - name: ivysaur
+    src: ./ivysaur.png
+  - name: raccattack
+    src: ./raccattack.png
+  - name: hero
+    src: ./hero.png
+  - name: smorc
+    src: ./smorc.png
+  - name: ham
+    src: ./ham.png
+  - name: aw_yeah
+    src: ./aw_yeah.gif
+  - name: yougotitdude
+    src: ./yougotitdude.gif
+  - name: boss
+    src: ./boss.png
+  - name: patriots
+    src: ./patriots.jpeg
+  - name: docker
+    src: ./docker.png
+  - name: itsboshytime
+    src: ./itsboshytime.png
+  - name: droplr
+    src: ./droplr.png
+  - name: rabbitmq
+    src: ./rabbitmq.png
+  - name: heres_johnny
+    src: ./heres_johnny.png
+  - name: snoopy_dance
+    src: ./snoopy_dance.gif
+  - name: sloth
+    src: ./sloth.png
+  - name: cpp
+    src: ./cpp.png
+  - name: close_enough
+    src: ./close_enough.png
+  - name: real-gun
+    src: ./real-gun.png
+  - name: waving
+    src: ./waving.gif
+  - name: jason
+    src: ./jason.png
+  - name: please
+    src: ./please.png
+  - name: verynice
+    src: ./verynice.jpeg
+  - name: deilluminati
+    src: ./deilluminati.png
+  - name: wfh
+    src: ./wfh.gif
+  - name: ninjatroll
+    src: ./ninjatroll.png
+  - name: blargnaut
+    src: ./blargnaut.png
+  - name: borg
+    src: ./borg.png
+  - name: toad_kart
+    src: ./toad_kart.gif
+  - name: stalkerparrot
+    src: ./stalkerparrot.gif
+  - name: redmine
+    src: ./redmine.png
+  - name: celebrate
+    src: ./celebrate.gif
+  - name: gothparrot
+    src: ./gothparrot.gif
+  - name: grammarking
+    src: ./grammarking.png
+  - name: strawbeary
+    src: ./strawbeary.png
+  - name: mew
+    src: ./mew.png
+  - name: wholewheat
+    src: ./wholewheat.png
+  - name: minion
+    src: ./minion.jpeg
+  - name: 10
+    src: ./10.png
+  - name: fists-out
+    src: ./fists-out.png
+  - name: jameis
+    src: ./jameis.png
+  - name: lime_wedge
+    src: ./lime_wedge.png
+  - name: north_star
+    src: ./north_star.png
+  - name: captainplanet
+    src: ./captainplanet.png
+  - name: ms-publisher
+    src: ./ms-publisher.png
+  - name: rwing
+    src: ./rwing.png
+  - name: versus
+    src: ./versus.png
+  - name: mojitos
+    src: ./mojitos.png
+  - name: getoffmylawn2
+    src: ./getoffmylawn2.gif
+  - name: mimcat
+    src: ./mimcat.gif
+  - name: pinching_hand
+    src: ./pinching_hand.png
+  - name: on_the_throne
+    src: ./on_the_throne.gif
+  - name: tardis
+    src: ./tardis.png
+  - name: salt-shake
+    src: ./salt-shake.gif
+  - name: erlang
+    src: ./erlang.png
+  - name: gasp-points
+    src: ./gasp-points.png
+  - name: ceilingparrot
+    src: ./ceilingparrot.gif
+  - name: safari
+    src: ./safari.png
+  - name: charmander_dancing
+    src: ./charmander_dancing.gif
+  - name: celia
+    src: ./celia.png
+  - name: blockchain
+    src: ./blockchain.png
+  - name: squidward-ping
+    src: ./squidward-ping.png
+  - name: pokeball
+    src: ./pokeball.png
+  - name: easy_button
+    src: ./easy_button.png
+  - name: git-pull-closed
+    src: ./git-pull-closed.png
+  - name: budweiser
+    src: ./budweiser.jpeg
+  - name: getoffmylawn
+    src: ./getoffmylawn.png
+  - name: poolparty
+    src: ./poolparty.gif
+  - name: windows
+    src: ./windows.png
+  - name: unamused2
+    src: ./unamused2.jpeg
+  - name: mario2
+    src: ./mario2.png
+  - name: angear
+    src: ./angear.gif
+  - name: hawks
+    src: ./hawks.png
+  - name: debian-linux
+    src: ./debian-linux.png
+  - name: birdbox
+    src: ./birdbox.png
+  - name: leia2
+    src: ./leia2.png
+  - name: iagreeleft
+    src: ./iagreeleft.gif
+  - name: proud
+    src: ./proud.jpeg
+  - name: gooby
+    src: ./gooby.png
+  - name: feels-think-man
+    src: ./feels-think-man.gif
+  - name: lightsaber
+    src: ./lightsaber.png
+  - name: sithparrot
+    src: ./sithparrot.gif
+  - name: kansas_city_chiefs
+    src: ./kansas_city_chiefs.png
+  - name: vine
+    src: ./vine.png
+  - name: hug
+    src: ./hug.gif
+  - name: excellent
+    src: ./excellent.png
+  - name: cupcake_bad
+    src: ./cupcake_bad.png
+  - name: dududu
+    src: ./dududu.png
+  - name: merica
+    src: ./merica.gif
+  - name: party
+    src: ./party.png
+  - name: grill
+    src: ./grill.png
+  - name: mischievous
+    src: ./mischievous.png
+  - name: bruce_lee
+    src: ./bruce_lee.png
+  - name: sohardcore
+    src: ./sohardcore.png
+  - name: brainslug
+    src: ./brainslug.png
+  - name: honeybadger
+    src: ./honeybadger.png
+  - name: waffle
+    src: ./waffle.gif
+  - name: bower
+    src: ./bower.png
+  - name: kirby-human-feet
+    src: ./kirby-human-feet.png
+  - name: rightparrot
+    src: ./rightparrot.gif
+  - name: callfire
+    src: ./callfire.jpeg
+  - name: im-dead
+    src: ./im-dead.png
+  - name: rock-on2
+    src: ./rock-on2.gif
+  - name: anger-inside-out
+    src: ./anger-inside-out.gif
+  - name: warrior
+    src: ./warrior.png
+  - name: pubg-ghillie-suit
+    src: ./pubg-ghillie-suit.png
+  - name: shooting2
+    src: ./shooting2.gif
+  - name: soylent
+    src: ./soylent.jpeg
+  - name: calvin2
+    src: ./calvin2.png
+  - name: feign-shock
+    src: ./feign-shock.png
+  - name: luckyparrot
+    src: ./luckyparrot.gif
+  - name: milk
+    src: ./milk.gif
+  - name: donkey2
+    src: ./donkey2.png
+  - name: usmnt
+    src: ./usmnt.png
+  - name: mario
+    src: ./mario.gif
+  - name: mic_drop
+    src: ./mic_drop.png
+  - name: torch
+    src: ./torch.jpeg
+  - name: piedpiper
+    src: ./piedpiper.png
+  - name: suns
+    src: ./suns.png
+  - name: stormtrooper
+    src: ./stormtrooper.png
+  - name: bfohh
+    src: ./bfohh.png
+  - name: pondering
+    src: ./pondering.png
+  - name: sheepy
+    src: ./sheepy.gif
+  - name: quickie
+    src: ./quickie.jpeg
+  - name: shocker
+    src: ./shocker.jpeg
+  - name: scala
+    src: ./scala.png
+  - name: dickbutt
+    src: ./dickbutt.png
+  - name: popcornparrot
+    src: ./popcornparrot.gif
+  - name: pokecoin
+    src: ./pokecoin.png
+  - name: vertical_align_bottom
+    src: ./vertical_align_bottom.png
+  - name: parrotupside
+    src: ./parrotupside.gif
+  - name: you-too
+    src: ./you-too.png
+  - name: delicious
+    src: ./delicious.png
+  - name: elf_on_the_shelf
+    src: ./elf_on_the_shelf.jpeg
+  - name: maga
+    src: ./maga.png
+  - name: hug
+    src: ./hug.png
+  - name: spongeblob-squilliam
+    src: ./spongeblob-squilliam.png
+  - name: cowboy-think
+    src: ./cowboy-think.png
+  - name: arkansas
+    src: ./arkansas.png
+  - name: decepticon
+    src: ./decepticon.jpeg
+  - name: gentlemanparrot
+    src: ./gentlemanparrot.gif
+  - name: calvin
+    src: ./calvin.png
+  - name: say-whaaat
+    src: ./say-whaaat.png
+  - name: maryland
+    src: ./maryland.jpeg
+  - name: luckyegg
+    src: ./luckyegg.png
+  - name: mlk
+    src: ./mlk.png
+  - name: mind-blown
+    src: ./mind-blown.png
+  - name: mario_mushroom
+    src: ./mario_mushroom.jpeg
+  - name: salty
+    src: ./salty.png
+  - name: samtarly
+    src: ./samtarly.png
+  - name: wolfjob
+    src: ./wolfjob.png
+  - name: puzzle
+    src: ./puzzle.png
+  - name: lacroix
+    src: ./lacroix.png
+  - name: pdx_carpet
+    src: ./pdx_carpet.jpeg
+  - name: spinner
+    src: ./spinner.gif
+  - name: yeti
+    src: ./yeti.jpeg
+  - name: chompy
+    src: ./chompy.gif
+  - name: high-five
+    src: ./high-five.gif
+  - name: quora
+    src: ./quora.png
+  - name: cecinestpasunemoji
+    src: ./cecinestpasunemoji.png
+  - name: amishtoo
+    src: ./amishtoo.gif
+  - name: congapartyparrot
+    src: ./congapartyparrot.gif
+  - name: jonsnow
+    src: ./jonsnow.png
+  - name: finger-guns
+    src: ./finger-guns.gif
+  - name: giggle
+    src: ./giggle.gif
+  - name: checkmark
+    src: ./checkmark.png
+  - name: think-kirby
+    src: ./think-kirby.png
+  - name: deadpool
+    src: ./deadpool.png
+  - name: yo
+    src: ./yo.png
+  - name: giroud
+    src: ./giroud.jpeg
+  - name: wiggle_cat
+    src: ./wiggle_cat.gif
+  - name: yak
+    src: ./yak.png
+  - name: oh
+    src: ./oh.png
+  - name: crosseyed
+    src: ./crosseyed.jpeg
+  - name: worstever
+    src: ./worstever.jpeg
+  - name: red-card
+    src: ./red-card.png
+  - name: seriously
+    src: ./seriously.png
+  - name: baby-cookie-monster
+    src: ./baby-cookie-monster.png
+  - name: lunch
+    src: ./lunch.png
+  - name: unicorn2
+    src: ./unicorn2.png
+  - name: listening
+    src: ./listening.png
+  - name: gnome
+    src: ./gnome.png
+  - name: deputy
+    src: ./deputy.jpeg
+  - name: christian-server
+    src: ./christian-server.png
+  - name: horizontal_align_center
+    src: ./horizontal_align_center.png
+  - name: rofl
+    src: ./rofl.png
+  - name: elmo
+    src: ./elmo.png
+  - name: deathstar
+    src: ./deathstar.png
+  - name: explode
+    src: ./explode.gif
+  - name: r2d22
+    src: ./r2d22.png
+  - name: sonic-running
+    src: ./sonic-running.gif
+  - name: tor
+    src: ./tor.png
+  - name: retard
+    src: ./retard.gif
+  - name: spongeblob-patrick
+    src: ./spongeblob-patrick.png
+  - name: smirk2
+    src: ./smirk2.gif
+  - name: blobble-wobble
+    src: ./blobble-wobble.gif
+  - name: mardigrasparrot
+    src: ./mardigrasparrot.gif
+  - name: auth0
+    src: ./auth0.png
+  - name: angryparrot
+    src: ./angryparrot.gif
+  - name: smug
+    src: ./smug.jpeg
+  - name: cubimal_chick
+    src: ./cubimal_chick.png
+  - name: ron_swanson
+    src: ./ron_swanson.png
+  - name: leftshark
+    src: ./leftshark.png
+  - name: ruby_on_rails
+    src: ./ruby_on_rails.png
+  - name: wreath
+    src: ./wreath.png
+  - name: suspicious2
+    src: ./suspicious2.jpeg
+  - name: hogs
+    src: ./hogs.png
+  - name: trihard
+    src: ./trihard.png
+  - name: neckbeard
+    src: ./neckbeard.png
+  - name: sad-rage
+    src: ./sad-rage.png
+  - name: head-slam-wall
+    src: ./head-slam-wall.gif
+  - name: nwd
+    src: ./nwd.png
+  - name: spongeblob-neptune
+    src: ./spongeblob-neptune.png
+  - name: cheeky
+    src: ./cheeky.gif
+  - name: on-the-toilet
+    src: ./on-the-toilet.gif
+  - name: deadpool2
+    src: ./deadpool2.png
+  - name: doom_lost_soul
+    src: ./doom_lost_soul.gif
+  - name: pan
+    src: ./pan.png
+  - name: yeehaw
+    src: ./yeehaw.png
+  - name: indeed
+    src: ./indeed.png
+  - name: lovebird
+    src: ./lovebird.png
+  - name: mlady
+    src: ./mlady.gif
+  - name: hammer_time
+    src: ./hammer_time.gif
+  - name: poop-cry
+    src: ./poop-cry.jpeg
+  - name: hillz
+    src: ./hillz.png
+  - name: genius
+    src: ./genius.png
+  - name: link-spin
+    src: ./link-spin.gif
+  - name: ice
+    src: ./ice.jpeg
+  - name: bigsexy
+    src: ./bigsexy.png
+  - name: charmander
+    src: ./charmander.png
+  - name: realnice
+    src: ./realnice.gif
+  - name: twilio
+    src: ./twilio.png
+  - name: raccoon
+    src: ./raccoon.png
+  - name: yikes
+    src: ./yikes.png
+  - name: font
+    src: ./font.png
+  - name: instinct
+    src: ./instinct.png
+  - name: pokestop
+    src: ./pokestop.png
+  - name: fliesaway
+    src: ./fliesaway.jpeg
+  - name: broken-record
+    src: ./broken-record.png
+  - name: make-it-rain
+    src: ./make-it-rain.gif
+  - name: mugatu
+    src: ./mugatu.gif
+  - name: dawn
+    src: ./dawn.png
+  - name: 76ers
+    src: ./76ers.png
+  - name: that
+    src: ./that.gif
+  - name: bfalarm
+    src: ./bfalarm.png
+  - name: donut
+    src: ./donut.png
+  - name: elm
+    src: ./elm.png
+  - name: kirby-human-feet-2
+    src: ./kirby-human-feet-2.png
+  - name: burger
+    src: ./burger.png
+  - name: gary-johnson
+    src: ./gary-johnson.png
+  - name: kotlin
+    src: ./kotlin.png
+  - name: jar
+    src: ./jar.jpeg
+  - name: hangloose
+    src: ./hangloose.jpeg
+  - name: plus1
+    src: ./plus1.png
+  - name: big_cheese
+    src: ./big_cheese.png
+  - name: kubernetes
+    src: ./kubernetes.png
+  - name: instagram
+    src: ./instagram.png
+  - name: snacc-time
+    src: ./snacc-time.png
+  - name: at-here-1
+    src: ./at-here-1.png
+  - name: finger-guns-mario
+    src: ./finger-guns-mario.png
+  - name: oregon
+    src: ./oregon.png
+  - name: arts
+    src: ./arts.png
+  - name: 10-4
+    src: ./10-4.png
+  - name: p4k
+    src: ./p4k.png
+  - name: grumpy_cat
+    src: ./grumpy_cat.jpeg
+  - name: sublime-text
+    src: ./sublime-text.png
+  - name: cigar_eric
+    src: ./cigar_eric.png
+  - name: the_moar_you_know
+    src: ./the_moar_you_know.png
+  - name: johnsnow
+    src: ./johnsnow.png
+  - name: idiot
+    src: ./idiot.png
+  - name: ily
+    src: ./ily.png
+  - name: android
+    src: ./android.jpeg
+  - name: d20
+    src: ./d20.png
+  - name: scam
+    src: ./scam.png
+  - name: emo
+    src: ./emo.jpeg
+  - name: flex
+    src: ./flex.gif
+  - name: lando
+    src: ./lando.png
+  - name: dance
+    src: ./dance.gif
+  - name: thank
+    src: ./thank.gif
+  - name: prideparrot
+    src: ./prideparrot.gif
+  - name: pope
+    src: ./pope.png
+  - name: circle-ci
+    src: ./circle-ci.png
+  - name: swift
+    src: ./swift.png
+  - name: pazpazowitz
+    src: ./pazpazowitz.png
+  - name: taco-bell
+    src: ./taco-bell.gif
+  - name: over-it
+    src: ./over-it.png
+  - name: ice-cream-parrot
+    src: ./ice-cream-parrot.gif
+  - name: dallas_cowboys
+    src: ./dallas_cowboys.png
+  - name: lodash
+    src: ./lodash.png
+  - name: sandwich2
+    src: ./sandwich2.png
+  - name: spongeblob-mable
+    src: ./spongeblob-mable.png
+  - name: rulefive
+    src: ./rulefive.png
+  - name: googledrive
+    src: ./googledrive.png
+  - name: theringer
+    src: ./theringer.png
+  - name: pagerduty
+    src: ./pagerduty.png
+  - name: postmates
+    src: ./postmates.png
+  - name: hungover
+    src: ./hungover.gif
+  - name: blink-flip
+    src: ./blink-flip.gif
+  - name: mike-wazowski
+    src: ./mike-wazowski.png
+  - name: beard_and_beanie
+    src: ./beard_and_beanie.png
+  - name: spongeblob-perkins
+    src: ./spongeblob-perkins.png
+  - name: takethel
+    src: ./takethel.gif
+  - name: postgres
+    src: ./postgres.png
+  - name: poe
+    src: ./poe.png
+  - name: dance_awkward
+    src: ./dance_awkward.gif
+  - name: wtfwave1
+    src: ./wtfwave1.gif
+  - name: eye-twitch
+    src: ./eye-twitch.gif
+  - name: hurtrealbad
+    src: ./hurtrealbad.png
+  - name: bug5
+    src: ./bug5.png
+  - name: ms-access
+    src: ./ms-access.png
+  - name: homestar_science
+    src: ./homestar_science.png
+  - name: grizzlies
+    src: ./grizzlies.png
+  - name: tableflip
+    src: ./tableflip.jpeg
+  - name: dancing_pickle
+    src: ./dancing_pickle.gif
+  - name: dobby
+    src: ./dobby.jpeg
+  - name: kool-aid
+    src: ./kool-aid.png
+  - name: circleci-pass
+    src: ./circleci-pass.png
+  - name: nicmoji_angry
+    src: ./nicmoji_angry.gif
+  - name: facewall
+    src: ./facewall.gif
+  - name: lumberg
+    src: ./lumberg.jpeg
+  - name: chef
+    src: ./chef.png
+  - name: marx-think
+    src: ./marx-think.png
+  - name: horror
+    src: ./horror.png
+  - name: the_dude2
+    src: ./the_dude2.png
+  - name: pooh
+    src: ./pooh.png
+  - name: einstein
+    src: ./einstein.png
+  - name: beerbear
+    src: ./beerbear.png
+  - name: doomguy
+    src: ./doomguy.png
+  - name: nerd-delight
+    src: ./nerd-delight.png
+  - name: doge2
+    src: ./doge2.png
+  - name: thought-balloon-top-middle
+    src: ./thought-balloon-top-middle.png
+  - name: unclenox
+    src: ./unclenox.png
+  - name: howling_wolf
+    src: ./howling_wolf.png
+  - name: flipping-bird
+    src: ./flipping-bird.gif
+  - name: speechless
+    src: ./speechless.gif
+  - name: captain-jack-sparrow
+    src: ./captain-jack-sparrow.png
+  - name: goofball
+    src: ./goofball.gif
+  - name: hotfix
+    src: ./hotfix.gif
+  - name: kungfu
+    src: ./kungfu.gif
+  - name: lgtm_cancel
+    src: ./lgtm_cancel.png
+  - name: sonic-wait
+    src: ./sonic-wait.gif
+  - name: donald_trump
+    src: ./donald_trump.png
+  - name: air-quote-right
+    src: ./air-quote-right.gif
+  - name: wtruck
+    src: ./wtruck.png
+  - name: pinball
+    src: ./pinball.png
+  - name: untitled-1
+    src: ./untitled-1.png
+  - name: this
+    src: ./this.gif
+  - name: blackpanther
+    src: ./blackpanther.png
+  - name: donkey
+    src: ./donkey.png
+  - name: bozo
+    src: ./bozo.png
+  - name: twerk
+    src: ./twerk.png
+  - name: ermahgerd
+    src: ./ermahgerd.png
+  - name: harrypotterparrot
+    src: ./harrypotterparrot.gif
+  - name: unsane
+    src: ./unsane.png
+  - name: cool-s
+    src: ./cool-s.png
+  - name: stop
+    src: ./stop.gif
+  - name: wtfwave3
+    src: ./wtfwave3.gif
+  - name: finger
+    src: ./finger.gif
+  - name: datadog
+    src: ./datadog.png
+  - name: fork
+    src: ./fork.png
+  - name: failed
+    src: ./failed.png
+  - name: squareup
+    src: ./squareup.png
+  - name: lol
+    src: ./lol.gif
+  - name: easy
+    src: ./easy.jpeg
+  - name: bftired
+    src: ./bftired.png
+  - name: tinyface
+    src: ./tinyface.png
+  - name: nets
+    src: ./nets.png
+  - name: onion-think
+    src: ./onion-think.png
+  - name: phoenix
+    src: ./phoenix.gif
+  - name: pig-in-a-blanket
+    src: ./pig-in-a-blanket.png
+  - name: baby-shark
+    src: ./baby-shark.png
+  - name: upvote
+    src: ./upvote.png
+  - name: bigbrother
+    src: ./bigbrother.png
+  - name: trashpanda
+    src: ./trashpanda.gif
+  - name: client_email
+    src: ./client_email.png
+  - name: eyeroll
+    src: ./eyeroll.gif
+  - name: ugh_minion
+    src: ./ugh_minion.png
+  - name: happy-crying
+    src: ./happy-crying.png
+  - name: rx
+    src: ./rx.png
+  - name: daydreaming
+    src: ./daydreaming.png
+  - name: nodemon
+    src: ./nodemon.png
+  - name: think-starbucks
+    src: ./think-starbucks.png
+  - name: galactica
+    src: ./galactica.png
+  - name: ncstate
+    src: ./ncstate.jpeg
+  - name: smittys
+    src: ./smittys.jpeg
+  - name: sully
+    src: ./sully.png
+  - name: chrome
+    src: ./chrome.png
+  - name: clapping
+    src: ./clapping.gif
+  - name: krusty
+    src: ./krusty.png
+  - name: tardis
+    src: ./tardis.gif
+  - name: salute2
+    src: ./salute2.jpeg
+  - name: party-blob-glasses
+    src: ./party-blob-glasses.gif
+  - name: kebab
+    src: ./kebab.png
+  - name: dont-forget
+    src: ./dont-forget.png
+  - name: what_year_is_it
+    src: ./what_year_is_it.png
+  - name: washington
+    src: ./washington.jpeg
+  - name: hotpokket
+    src: ./hotpokket.png
+  - name: bug3
+    src: ./bug3.png
+  - name: fake-taco
+    src: ./fake-taco.png
+  - name: checkmark_green
+    src: ./checkmark_green.png
+  - name: finger-guns-2
+    src: ./finger-guns-2.png
+  - name: ssssss
+    src: ./ssssss.png
+  - name: soup
+    src: ./soup.png
+  - name: washio
+    src: ./washio.png
+  - name: couchdb
+    src: ./couchdb.png
+  - name: nonospot
+    src: ./nonospot.png
+  - name: phoenix3
+    src: ./phoenix3.jpeg
+  - name: thumb_down
+    src: ./thumb_down.gif
+  - name: waffles
+    src: ./waffles.gif
+  - name: chipotle
+    src: ./chipotle.png
+  - name: viper
+    src: ./viper.png
+  - name: horizontal_align
+    src: ./horizontal_align.png
+  - name: kraken
+    src: ./kraken.jpeg
+  - name: mooning
+    src: ./mooning.gif
+  - name: remote
+    src: ./remote.jpeg
+  - name: bb8
+    src: ./bb8.png
+  - name: vw
+    src: ./vw.jpeg
+  - name: tortilla
+    src: ./tortilla.jpeg
+  - name: heat
+    src: ./heat.png
+  - name: mystic
+    src: ./mystic.gif
+  - name: monkas
+    src: ./monkas.png
+  - name: robot
+    src: ./robot.jpeg
+  - name: pullinghair
+    src: ./pullinghair.gif
+  - name: fox1
+    src: ./fox1.gif
+  - name: +1right
+    src: ./+1right.png
+  - name: pirateparrot
+    src: ./pirateparrot.gif
+  - name: gotem
+    src: ./gotem.png
+  - name: soonerlater
+    src: ./soonerlater.png
+  - name: juice-box
+    src: ./juice-box.png
+  - name: ericpaul
+    src: ./ericpaul.png
+  - name: gotta-go-fast
+    src: ./gotta-go-fast.gif
+  - name: guccimane
+    src: ./guccimane.png
+  - name: rick_ross
+    src: ./rick_ross.jpeg
+  - name: tableflip_animated
+    src: ./tableflip_animated.gif
+  - name: feels-old-man
+    src: ./feels-old-man.png
+  - name: pdf
+    src: ./pdf.png
+  - name: picard-why
+    src: ./picard-why.png
+  - name: bluce-monster
+    src: ./bluce-monster.png
+  - name: soup-flex
+    src: ./soup-flex.png
+  - name: sonic
+    src: ./sonic.gif
+  - name: dfb
+    src: ./dfb.jpeg
+  - name: thething
+    src: ./thething.png
+  - name: gotta-go-slow
+    src: ./gotta-go-slow.gif
+  - name: titania
+    src: ./titania.png
+  - name: crown-pig
+    src: ./crown-pig.png
+  - name: goofy
+    src: ./goofy.png
+  - name: dumpster-fire
+    src: ./dumpster-fire.gif
+  - name: cthulhu
+    src: ./cthulhu.gif
+  - name: hedonism-bot
+    src: ./hedonism-bot.jpeg
+  - name: oblivion
+    src: ./oblivion.jpeg
+  - name: hodor
+    src: ./hodor.png
+  - name: accomplished
+    src: ./accomplished.jpeg
+  - name: sorry
+    src: ./sorry.jpeg
+  - name: middle-finger-left
+    src: ./middle-finger-left.png
+  - name: peanut_butter_jelly_time
+    src: ./peanut_butter_jelly_time.gif
+  - name: emberjs
+    src: ./emberjs.png
+  - name: socute
+    src: ./socute.png
+  - name: successkid
+    src: ./successkid.png
+  - name: happy-trump
+    src: ./happy-trump.png
+  - name: postgresql
+    src: ./postgresql.png
+  - name: omg-panda
+    src: ./omg-panda.gif
+  - name: fin
+    src: ./fin.jpeg
+  - name: cheers
+    src: ./cheers.png
+  - name: globble
+    src: ./globble.png
+  - name: eyeholes
+    src: ./eyeholes.png
+  - name: xmas-tree
+    src: ./xmas-tree.png
+  - name: terminator
+    src: ./terminator.png
+  - name: uh-oh
+    src: ./uh-oh.gif
+  - name: spongeblob-barnacle-boy
+    src: ./spongeblob-barnacle-boy.png
+  - name: thetarfu
+    src: ./thetarfu.png
+  - name: tie-fighter
+    src: ./tie-fighter.png
+  - name: trump_hair
+    src: ./trump_hair.jpeg
+  - name: bitcoin
+    src: ./bitcoin.png
+  - name: swear
+    src: ./swear.gif
+  - name: sears
+    src: ./sears.png
+  - name: travis
+    src: ./travis.png
+  - name: suicide
+    src: ./suicide.gif
+  - name: dentures
+    src: ./dentures.png
+  - name: drake_yes
+    src: ./drake_yes.png
+  - name: hot-face
+    src: ./hot-face.png
+  - name: rubberduck
+    src: ./rubberduck.png
+  - name: dreidelparrot
+    src: ./dreidelparrot.gif
+  - name: new_relic
+    src: ./new_relic.png
+  - name: thunder
+    src: ./thunder.png
+  - name: cursive
+    src: ./cursive.png
+  - name: kirby2
+    src: ./kirby2.gif
+  - name: heartbeat-animated
+    src: ./heartbeat-animated.gif
+  - name: mobile
+    src: ./mobile.png
+  - name: fail
+    src: ./fail.jpeg
+  - name: yeoman
+    src: ./yeoman.png
+  - name: pubg-vector
+    src: ./pubg-vector.png
+  - name: shame-badge
+    src: ./shame-badge.png
+  - name: kangaroo
+    src: ./kangaroo.png
+  - name: hardhatparrot
+    src: ./hardhatparrot.gif
+  - name: dancing_lisa
+    src: ./dancing_lisa.gif
+  - name: thisisfine
+    src: ./thisisfine.png
+  - name: takei
+    src: ./takei.png
+  - name: cheerleader
+    src: ./cheerleader.jpeg
+  - name: finger-guns-right
+    src: ./finger-guns-right.png
+  - name: strongbad
+    src: ./strongbad.png
+  - name: upvotepartyparrot
+    src: ./upvotepartyparrot.gif
+  - name: birthdaypartyparrot
+    src: ./birthdaypartyparrot.gif
+  - name: thumbsupparrot
+    src: ./thumbsupparrot.gif
+  - name: pfft
+    src: ./pfft.png
+  - name: aussiecongaparrot
+    src: ./aussiecongaparrot.gif
+  - name: confused-travolta
+    src: ./confused-travolta.gif
+  - name: theking
+    src: ./theking.png
+  - name: bananaparrot
+    src: ./bananaparrot.gif
+  - name: headcrab
+    src: ./headcrab.gif
+  - name: happy-goat
+    src: ./happy-goat.gif
+  - name: make_it_pop
+    src: ./make_it_pop.png
+  - name: onigiri
+    src: ./onigiri.png
+  - name: gir_dance
+    src: ./gir_dance.gif
+  - name: lulu
+    src: ./lulu.png
+  - name: srihead
+    src: ./srihead.png
+  - name: phasma
+    src: ./phasma.png
+  - name: beryl
+    src: ./beryl.png
+  - name: clippers
+    src: ./clippers.png
+  - name: pepefeet
+    src: ./pepefeet.png
+  - name: discmania
+    src: ./discmania.png
+  - name: hipster_oversized_glasses
+    src: ./hipster_oversized_glasses.png
+  - name: spongeblob-mermaid-man
+    src: ./spongeblob-mermaid-man.png
+  - name: codecov
+    src: ./codecov.png
+  - name: moonwalkingparrot
+    src: ./moonwalkingparrot.gif
+  - name: idgaf-2
+    src: ./idgaf-2.png
+  - name: wutface
+    src: ./wutface.png
+  - name: worst_ever
+    src: ./worst_ever.jpeg
+  - name: festivus
+    src: ./festivus.png
+  - name: snapchat
+    src: ./snapchat.png
+  - name: pluto
+    src: ./pluto.png
+  - name: todoist
+    src: ./todoist.png
+  - name: dusty_stick
+    src: ./dusty_stick.png
+  - name: yes2
+    src: ./yes2.png
+  - name: greyworm
+    src: ./greyworm.png
+  - name: ativy
+    src: ./ativy.png
+  - name: man-with-probing-cane
+    src: ./man-with-probing-cane.png
+  - name: bort
+    src: ./bort.png
+  - name: doom_gib
+    src: ./doom_gib.gif
+  - name: dbstyle
+    src: ./dbstyle.png
+  - name: mogl
+    src: ./mogl.png
+  - name: pen_tool
+    src: ./pen_tool.png
+  - name: ayaya_bop
+    src: ./ayaya_bop.gif
+  - name: quesadilla
+    src: ./quesadilla.png
+  - name: eyeroll2
+    src: ./eyeroll2.png
+  - name: fart_water
+    src: ./fart_water.png
+  - name: hilary_shrug
+    src: ./hilary_shrug.gif
+  - name: ritzmitz
+    src: ./ritzmitz.png
+  - name: rammus
+    src: ./rammus.png
+  - name: spongeblob-patricks-rock
+    src: ./spongeblob-patricks-rock.png
+  - name: cheeseburger
+    src: ./cheeseburger.png
+  - name: saints
+    src: ./saints.png
+  - name: pikachu
+    src: ./pikachu.png
+  - name: dfb2
+    src: ./dfb2.png
+  - name: onoes
+    src: ./onoes.gif
+  - name: luchador
+    src: ./luchador.png
+  - name: greater-than
+    src: ./greater-than.png
+  - name: 1up
+    src: ./1up.png
+  - name: coffee_steaming
+    src: ./coffee_steaming.gif
+  - name: ariel
+    src: ./ariel.png
+  - name: show-me-what-youve-got
+    src: ./show-me-what-youve-got.png
+  - name: pbj
+    src: ./pbj.gif
+  - name: dragonball
+    src: ./dragonball.png
+  - name: amazon
+    src: ./amazon.png
+  - name: yourewelcome
+    src: ./yourewelcome.gif
+  - name: tj_finger
+    src: ./tj_finger.png
+  - name: tumbleweed
+    src: ./tumbleweed.gif
+  - name: bert
+    src: ./bert.jpeg
+  - name: winwaker
+    src: ./winwaker.png
+  - name: moby-dock
+    src: ./moby-dock.png
+  - name: cash
+    src: ./cash.gif
+  - name: scoobydoo
+    src: ./scoobydoo.gif
+  - name: whoa
+    src: ./whoa.jpeg
+  - name: bfexcite
+    src: ./bfexcite.png
+  - name: harry
+    src: ./harry.gif
+  - name: lenny1
+    src: ./lenny1.gif
+  - name: scraper
+    src: ./scraper.png
+  - name: yeti
+    src: ./yeti.png
+  - name: link-run
+    src: ./link-run.gif
+  - name: cool-santa
+    src: ./cool-santa.png
+  - name: heisenberg
+    src: ./heisenberg.png
+  - name: disco-ball
+    src: ./disco-ball.gif
+  - name: hammer-and-sickle
+    src: ./hammer-and-sickle.png
+  - name: blessrng
+    src: ./blessrng.png
+  - name: scotland_flag
+    src: ./scotland_flag.png
+  - name: stickam
+    src: ./stickam.png
+  - name: cocky
+    src: ./cocky.png
+  - name: tony-dab
+    src: ./tony-dab.png
+  - name: think-ryan
+    src: ./think-ryan.png
+  - name: lied
+    src: ./lied.png
+  - name: ether
+    src: ./ether.png
+  - name: trollface
+    src: ./trollface.png
+  - name: bunny-roll
+    src: ./bunny-roll.gif
+  - name: xd-kirby
+    src: ./xd-kirby.png
+  - name: groom
+    src: ./groom.png
+  - name: wtf
+    src: ./wtf.gif
+  - name: ditto
+    src: ./ditto.png
+  - name: beverage-box
+    src: ./beverage-box.png
+  - name: arthur-fist
+    src: ./arthur-fist.png
+  - name: acknowledged
+    src: ./acknowledged.png
+  - name: hashicorp
+    src: ./hashicorp.png
+  - name: empathy
+    src: ./empathy.png
+  - name: onehand
+    src: ./onehand.png
+  - name: schmeckles
+    src: ./schmeckles.png
+  - name: internet_explorer
+    src: ./internet_explorer.png
+  - name: bluntparrot
+    src: ./bluntparrot.gif
+  - name: pumpkinparrot
+    src: ./pumpkinparrot.gif
+  - name: proud
+    src: ./proud.png
+  - name: trap
+    src: ./trap.png
+  - name: everton
+    src: ./everton.png
+  - name: liftoff
+    src: ./liftoff.gif
+  - name: elsa
+    src: ./elsa.png
+  - name: mechanical-arm
+    src: ./mechanical-arm.png
+  - name: at-here-2
+    src: ./at-here-2.png
+  - name: cool_cat
+    src: ./cool_cat.gif
+  - name: shaq
+    src: ./shaq.png
+  - name: spaghetti-code
+    src: ./spaghetti-code.png
+  - name: screenhero
+    src: ./screenhero.png
+  - name: tombstone
+    src: ./tombstone.png
+  - name: darth_vader
+    src: ./darth_vader.png
+  - name: taken
+    src: ./taken.png
+  - name: 10k
+    src: ./10k.png
+  - name: kristoff
+    src: ./kristoff.png
+  - name: allthethings
+    src: ./allthethings.png
+  - name: beachball2
+    src: ./beachball2.gif
+  - name: not_sure
+    src: ./not_sure.jpeg
+  - name: batman
+    src: ./batman.gif
+  - name: nike
+    src: ./nike.png
+  - name: cupcake2
+    src: ./cupcake2.jpeg
+  - name: shame
+    src: ./shame.png
+  - name: you-tried-star
+    src: ./you-tried-star.png
+  - name: thunking_face
+    src: ./thunking_face.png
+  - name: spongeblob-sandy
+    src: ./spongeblob-sandy.png
+  - name: knicks
+    src: ./knicks.png
+  - name: thefold
+    src: ./thefold.png
+  - name: gasp
+    src: ./gasp.png
+  - name: sombrero
+    src: ./sombrero.png
+  - name: kuzy
+    src: ./kuzy.png
+  - name: rtfm
+    src: ./rtfm.gif
+  - name: circleci-fail
+    src: ./circleci-fail.png
+  - name: happygoat
+    src: ./happygoat.gif
+  - name: opera
+    src: ./opera.png
+  - name: quickbooks
+    src: ./quickbooks.png
+  - name: rambothumbsup
+    src: ./rambothumbsup.jpeg
+  - name: zoom
+    src: ./zoom.png
+  - name: brule
+    src: ./brule.jpeg
+  - name: ms-word
+    src: ./ms-word.png
+  - name: lalala
+    src: ./lalala.gif
+  - name: race-card
+    src: ./race-card.gif
+  - name: dendiface
+    src: ./dendiface.png
+  - name: frankerz
+    src: ./frankerz.png
+  - name: rotatingparrot
+    src: ./rotatingparrot.gif
+  - name: loveparrot
+    src: ./loveparrot.gif
+  - name: gummyworms
+    src: ./gummyworms.png
+  - name: empire
+    src: ./empire.png
+  - name: snopes-true
+    src: ./snopes-true.png
+  - name: poptart
+    src: ./poptart.png
+  - name: the_more_you_know
+    src: ./the_more_you_know.png
+  - name: yawaseilf
+    src: ./yawaseilf.jpeg
+  - name: blobble-wobble-disco
+    src: ./blobble-wobble-disco.gif
+  - name: yodanew
+    src: ./yodanew.jpeg
+  - name: the_more_you_know2
+    src: ./the_more_you_know2.gif
+  - name: im-fine
+    src: ./im-fine.png
+  - name: rays-beef
+    src: ./rays-beef.png
+  - name: kanye_west
+    src: ./kanye_west.png
+  - name: pumpkin_spice_latte
+    src: ./pumpkin_spice_latte.png
+  - name: air-quote-left
+    src: ./air-quote-left.gif
+  - name: vaultboy
+    src: ./vaultboy.png
+  - name: party-parrot-ryan
+    src: ./party-parrot-ryan.gif
+  - name: love
+    src: ./love.gif
+  - name: dab-cat
+    src: ./dab-cat.png
+  - name: semitruck
+    src: ./semitruck.png
+  - name: thomastank1
+    src: ./thomastank1.png
+  - name: facebook
+    src: ./facebook.png
+  - name: coolcoolcool
+    src: ./coolcoolcool.jpeg
+  - name: plusone
+    src: ./plusone.png
+  - name: frustrated
+    src: ./frustrated.jpeg
+  - name: alec
+    src: ./alec.png
+  - name: opo
+    src: ./opo.png
+  - name: whackamole
+    src: ./whackamole.gif
+  - name: lenny2
+    src: ./lenny2.gif
+  - name: spongeblob-maggie
+    src: ./spongeblob-maggie.png
+  - name: unicorn2
+    src: ./unicorn2.jpeg
+  - name: puritan-better
+    src: ./puritan-better.png
+  - name: log
+    src: ./log.png
+  - name: blob-spin
+    src: ./blob-spin.gif
+  - name: hadouken
+    src: ./hadouken.jpeg
+  - name: star-of-david
+    src: ./star-of-david.png
+  - name: determined
+    src: ./determined.png
+  - name: parrotwave3
+    src: ./parrotwave3.gif
+  - name: mw
+    src: ./mw.png
+  - name: daesuppy
+    src: ./daesuppy.png
+  - name: arch-linux
+    src: ./arch-linux.png
+  - name: ironman
+    src: ./ironman.png
+  - name: exposed
+    src: ./exposed.jpeg
+  - name: throw-under-bus
+    src: ./throw-under-bus.png
+  - name: haggis
+    src: ./haggis.png
+  - name: wtf-loop-fast
+    src: ./wtf-loop-fast.gif
+  - name: wot
+    src: ./wot.png
+  - name: millennium
+    src: ./millennium.png
+  - name: typeform
+    src: ./typeform.png
+  - name: emacs
+    src: ./emacs.png
+  - name: calvin_and_hobbes1
+    src: ./calvin_and_hobbes1.png
+  - name: insanitywolf
+    src: ./insanitywolf.png
+  - name: shroud
+    src: ./shroud.png
+  - name: redskins2
+    src: ./redskins2.png
+  - name: cylon
+    src: ./cylon.png
+  - name: bam
+    src: ./bam.png
+  - name: fox3
+    src: ./fox3.gif
+  - name: scary-terry
+    src: ./scary-terry.jpeg
+  - name: lolwut
+    src: ./lolwut.png
+  - name: parrotwave6
+    src: ./parrotwave6.gif
+  - name: chocobo
+    src: ./chocobo.gif
+  - name: bye_boo
+    src: ./bye_boo.gif
+  - name: doom_acid_barrel
+    src: ./doom_acid_barrel.gif
+  - name: vanellope
+    src: ./vanellope.png
+  - name: starbucks
+    src: ./starbucks.png
+  - name: opinions
+    src: ./opinions.png
+  - name: roy-vr
+    src: ./roy-vr.png
+  - name: yoshi_kart
+    src: ./yoshi_kart.gif
+  - name: rainbowpuke
+    src: ./rainbowpuke.jpeg
+  - name: stop_sign
+    src: ./stop_sign.png
+  - name: lua
+    src: ./lua.png
+  - name: woman-with-probing-cane
+    src: ./woman-with-probing-cane.png
+  - name: lolol
+    src: ./lolol.gif
+  - name: carlton
+    src: ./carlton.gif
+  - name: vector
+    src: ./vector.png
+  - name: derpina
+    src: ./derpina.png
+  - name: kiwi
+    src: ./kiwi.png
+  - name: cheetos_voldemort
+    src: ./cheetos_voldemort.png
+  - name: glhf
+    src: ./glhf.png
+  - name: nicmoji_the_bees
+    src: ./nicmoji_the_bees.gif
+  - name: notests
+    src: ./notests.png
+  - name: cheese
+    src: ./cheese.png
+  - name: stapler
+    src: ./stapler.jpeg
+  - name: i-lied
+    src: ./i-lied.png
+  - name: flash
+    src: ./flash.gif
+  - name: festive-pensive
+    src: ./festive-pensive.png
+  - name: charizard
+    src: ./charizard.png
+  - name: donald-duck
+    src: ./donald-duck.png
+  - name: beach_umbrella
+    src: ./beach_umbrella.png
+  - name: happy-crying
+    src: ./happy-crying.jpeg
+  - name: thinkception
+    src: ./thinkception.png
+  - name: pride
+    src: ./pride.png
+  - name: hangout
+    src: ./hangout.png
+  - name: slow_clap
+    src: ./slow_clap.gif
+  - name: knuckles
+    src: ./knuckles.gif
+  - name: indesign
+    src: ./indesign.png
+  - name: trailblazers
+    src: ./trailblazers.png
+  - name: bluescluesparrot
+    src: ./bluescluesparrot.gif
+  - name: amaze
+    src: ./amaze.gif
+  - name: hot_dog
+    src: ./hot_dog.png
+  - name: fa
+    src: ./fa.jpeg
+  - name: vader
+    src: ./vader.png
+  - name: domo
+    src: ./domo.png
+  - name: opieop
+    src: ./opieop.png
+  - name: olaf
+    src: ./olaf.png
+  - name: cherrytomato
+    src: ./cherrytomato.gif
+  - name: microsoft
+    src: ./microsoft.png
+  - name: rage3
+    src: ./rage3.png
+  - name: goomba
+    src: ./goomba.gif
+  - name: science
+    src: ./science.png
+  - name: cartman-in-hawaii-smiley
+    src: ./cartman-in-hawaii-smiley.gif
+  - name: parrotog
+    src: ./parrotog.gif
+  - name: angularjs
+    src: ./angularjs.png
+  - name: pwease
+    src: ./pwease.png
+  - name: pewpew
+    src: ./pewpew.gif
+  - name: liar
+    src: ./liar.png
+  - name: bluetooth
+    src: ./bluetooth.jpeg
+  - name: glare
+    src: ./glare.jpeg
+  - name: goberserk
+    src: ./goberserk.png
+  - name: fu
+    src: ./fu.png
+  - name: pusheen
+    src: ./pusheen.png
+  - name: grid
+    src: ./grid.gif
+  - name: spongeblob-krabby-patty
+    src: ./spongeblob-krabby-patty.png
+  - name: homestarrunner
+    src: ./homestarrunner.jpeg
+  - name: e
+    src: ./e.jpeg
+  - name: squidward-dab
+    src: ./squidward-dab.png
+  - name: aol
+    src: ./aol.png
+  - name: psyduck
+    src: ./psyduck.png
+  - name: rubiks
+    src: ./rubiks.png
+  - name: neck-beard
+    src: ./neck-beard.png
+  - name: ms-outlook
+    src: ./ms-outlook.png
+  - name: slam
+    src: ./slam.gif
+  - name: pusheen-2
+    src: ./pusheen-2.gif
+  - name: subzero_turnt
+    src: ./subzero_turnt.gif
+  - name: meeting
+    src: ./meeting.gif
+  - name: lel
+    src: ./lel.png
+  - name: firefly
+    src: ./firefly.png
+  - name: same
+    src: ./same.jpeg
+  - name: pikachu-dab
+    src: ./pikachu-dab.png
+  - name: trump_china
+    src: ./trump_china.png
+  - name: hyperpog
+    src: ./hyperpog.gif
+  - name: citation_needed
+    src: ./citation_needed.png
+  - name: fourhead
+    src: ./fourhead.png
+  - name: fingers-crossed
+    src: ./fingers-crossed.png
+  - name: coin
+    src: ./coin.gif
+  - name: incense
+    src: ./incense.png
+  - name: fingers_crossed
+    src: ./fingers_crossed.png
+  - name: gandalf
+    src: ./gandalf.gif
+  - name: buzz
+    src: ./buzz.png
+  - name: whaaa
+    src: ./whaaa.jpeg
+  - name: jenkins
+    src: ./jenkins.png
+  - name: soapbox
+    src: ./soapbox.jpeg
+  - name: unicorn3
+    src: ./unicorn3.png
+  - name: atgl
+    src: ./atgl.png
+  - name: pikachu-wow
+    src: ./pikachu-wow.gif
+  - name: x-acto_knife
+    src: ./x-acto_knife.png
+  - name: fallout
+    src: ./fallout.png
+  - name: phoenix
+    src: ./phoenix.jpeg
+  - name: smh
+    src: ./smh.gif
+  - name: shazbotstix
+    src: ./shazbotstix.png
+  - name: smskull
+    src: ./smskull.png
+  - name: ls
+    src: ./ls.png
+  - name: door_stop
+    src: ./door_stop.png
+  - name: tbquesarito
+    src: ./tbquesarito.png
+  - name: fake-erich
+    src: ./fake-erich.jpeg
+  - name: disco
+    src: ./disco.gif
+  - name: nuggets
+    src: ./nuggets.png
+  - name: airquotes
+    src: ./airquotes.gif
+  - name: mewtwo
+    src: ./mewtwo.png
+  - name: nerf_or_nothing
+    src: ./nerf_or_nothing.png
+  - name: mlscup
+    src: ./mlscup.jpeg
+  - name: totesmagoats
+    src: ./totesmagoats.gif
+  - name: thought-balloon-top-left
+    src: ./thought-balloon-top-left.png
+  - name: duct_tape2
+    src: ./duct_tape2.jpeg
+  - name: aviato
+    src: ./aviato.png
+  - name: rocket_launcher
+    src: ./rocket_launcher.png
+  - name: scope_creep
+    src: ./scope_creep.gif
+  - name: bfdetermine
+    src: ./bfdetermine.png
+  - name: meeseeks
+    src: ./meeseeks.png
+  - name: sf_giants
+    src: ./sf_giants.png
+  - name: sure
+    src: ./sure.png
+  - name: heyguys
+    src: ./heyguys.png
+  - name: pubg-helmet
+    src: ./pubg-helmet.png
+  - name: simba
+    src: ./simba.png
+  - name: spongebob-sad
+    src: ./spongebob-sad.gif
+  - name: troll-dance
+    src: ./troll-dance.gif
+  - name: crown-cat
+    src: ./crown-cat.png
+  - name: pokemon
+    src: ./pokemon.png
+  - name: nyancat
+    src: ./nyancat.gif
+  - name: jira
+    src: ./jira.png
+  - name: lame
+    src: ./lame.png
+  - name: corndog
+    src: ./corndog.png
+  - name: notbad
+    src: ./notbad.jpeg
+  - name: corgiderp
+    src: ./corgiderp.png
+  - name: omg
+    src: ./omg.png
+  - name: dot-net
+    src: ./dot-net.png
+  - name: laugh
+    src: ./laugh.gif
+  - name: crop
+    src: ./crop.png
+  - name: pennywise
+    src: ./pennywise.png
+  - name: sadpanda
+    src: ./sadpanda.png
+  - name: wuttttt
+    src: ./wuttttt.jpeg
+  - name: zombie3
+    src: ./zombie3.png
+  - name: spot_dance
+    src: ./spot_dance.gif
+  - name: prometheus
+    src: ./prometheus.png
+  - name: ship_spinner
+    src: ./ship_spinner.gif
+  - name: f-pay-respects
+    src: ./f-pay-respects.png
+  - name: pumpkin
+    src: ./pumpkin.png
+  - name: usmc
+    src: ./usmc.jpeg
+  - name: cowboy
+    src: ./cowboy.png
+  - name: doge
+    src: ./doge.png
+  - name: disgusted
+    src: ./disgusted.jpeg
+  - name: musk
+    src: ./musk.png
+  - name: jigsaw
+    src: ./jigsaw.png
+  - name: anxious
+    src: ./anxious.jpeg
+  - name: happyryan
+    src: ./happyryan.jpeg
+  - name: bucha
+    src: ./bucha.jpeg
+  - name: ragegrin
+    src: ./ragegrin.png
+  - name: raccoondance
+    src: ./raccoondance.jpeg
+  - name: trogdor
+    src: ./trogdor.png
+  - name: artax
+    src: ./artax.png
+  - name: shakefist
+    src: ./shakefist.gif
+  - name: zune
+    src: ./zune.png
+  - name: ooowee
+    src: ./ooowee.png
+  - name: awkward-blob
+    src: ./awkward-blob.gif
+  - name: brokeback
+    src: ./brokeback.png
+  - name: creamsicle
+    src: ./creamsicle.png
+  - name: yay2
+    src: ./yay2.gif
+  - name: aww_yeah
+    src: ./aww_yeah.gif
+  - name: toospicy
+    src: ./toospicy.png
+  - name: mood
+    src: ./mood.png
+  - name: zombie4
+    src: ./zombie4.png
+  - name: biting-lip
+    src: ./biting-lip.jpeg
+  - name: vapenation
+    src: ./vapenation.png
+  - name: crowdfire
+    src: ./crowdfire.png
+  - name: frenchpress
+    src: ./frenchpress.png
+  - name: tf2john
+    src: ./tf2john.png
+  - name: morty
+    src: ./morty.png
+  - name: unacceptable
+    src: ./unacceptable.png
+  - name: blob-thats-hot
+    src: ./blob-thats-hot.png
+  - name: c-sharp
+    src: ./c-sharp.png
+  - name: rimshot
+    src: ./rimshot.gif
+  - name: harold-thumbs-up
+    src: ./harold-thumbs-up.png
+  - name: pizza_party
+    src: ./pizza_party.png
+  - name: chameleon
+    src: ./chameleon.png
+  - name: thingsthatarenotemojis
+    src: ./thingsthatarenotemojis.png
+  - name: pubg-aug
+    src: ./pubg-aug.png
+  - name: run
+    src: ./run.png
+  - name: manning
+    src: ./manning.png
+  - name: loading
+    src: ./loading.gif
+  - name: angryeyes
+    src: ./angryeyes.png
+  - name: crowbar
+    src: ./crowbar.png
+  - name: why
+    src: ./why.png
+  - name: wat
+    src: ./wat.jpeg
+  - name: sharkright
+    src: ./sharkright.gif
+  - name: kale
+    src: ./kale.png
+  - name: dolan
+    src: ./dolan.jpeg
+  - name: cartman
+    src: ./cartman.gif
+  - name: woohoo
+    src: ./woohoo.png
+  - name: jazz
+    src: ./jazz.png
+  - name: rtj-2
+    src: ./rtj-2.png
+  - name: excited
+    src: ./excited.gif
+  - name: fb-sad
+    src: ./fb-sad.gif
+  - name: somebody-toucha-my-spaghet
+    src: ./somebody-toucha-my-spaghet.png
+  - name: fsck
+    src: ./fsck.jpeg
+  - name: whynotboth
+    src: ./whynotboth.gif
+  - name: etcd
+    src: ./etcd.png
+  - name: woman-playing-water-polo-upside-down
+    src: ./woman-playing-water-polo-upside-down.png
+  - name: roblox-joy
+    src: ./roblox-joy.png
+  - name: talk-too-much
+    src: ./talk-too-much.gif
+  - name: beaker
+    src: ./beaker.gif
+  - name: axe
+    src: ./axe.png
+  - name: fixitfelix
+    src: ./fixitfelix.png
+  - name: osfrog
+    src: ./osfrog.png
+  - name: peachy
+    src: ./peachy.png
+  - name: shipitparrot
+    src: ./shipitparrot.gif
+  - name: pumpgirl
+    src: ./pumpgirl.gif
+  - name: aws_eb
+    src: ./aws_eb.png
+  - name: talk_to_the_hand
+    src: ./talk_to_the_hand.gif
+  - name: nodejs
+    src: ./nodejs.png
+  - name: bflove
+    src: ./bflove.png
+  - name: flames
+    src: ./flames.gif
+  - name: özil
+    src: ./özil.jpeg
+  - name: right_align
+    src: ./right_align.png
+  - name: rtj
+    src: ./rtj.png
+  - name: the_more_you_know
+    src: ./the_more_you_know.gif
+  - name: hammer-time
+    src: ./hammer-time.gif
+  - name: chicken_wing
+    src: ./chicken_wing.png
+  - name: insane
+    src: ./insane.png
+  - name: hodl
+    src: ./hodl.png
+  - name: kissing_heart_mozilla
+    src: ./kissing_heart_mozilla.png
+  - name: drake
+    src: ./drake.gif
+  - name: tormund_2
+    src: ./tormund_2.png
+  - name: yodawg
+    src: ./yodawg.png
+  - name: hobbes3
+    src: ./hobbes3.png
+  - name: magnet
+    src: ./magnet.png
+  - name: dull
+    src: ./dull.gif
+  - name: crying
+    src: ./crying.png
+  - name: concentrate
+    src: ./concentrate.png
+  - name: vim
+    src: ./vim.png
+  - name: mk_cyrax_dance
+    src: ./mk_cyrax_dance.gif
+  - name: pirate
+    src: ./pirate.png
+  - name: zany_face_google
+    src: ./zany_face_google.png
+  - name: broken-heart-eyes
+    src: ./broken-heart-eyes.jpeg
+  - name: got_throne
+    src: ./got_throne.jpeg
+  - name: parrotdad
+    src: ./parrotdad.gif
+  - name: trashcanfire
+    src: ./trashcanfire.png
+  - name: notlikethis
+    src: ./notlikethis.png
+  - name: muy
+    src: ./muy.jpeg
+  - name: hornets
+    src: ./hornets.png
+  - name: alert
+    src: ./alert.gif
+  - name: purified-fleeb
+    src: ./purified-fleeb.png
+  - name: 100k
+    src: ./100k.png
+  - name: luckdragon
+    src: ./luckdragon.jpeg
+  - name: bazinga
+    src: ./bazinga.png
+  - name: santa-cat
+    src: ./santa-cat.png
+  - name: finger_hole
+    src: ./finger_hole.gif
+  - name: eclipse
+    src: ./eclipse.png
+  - name: angery-kirby
+    src: ./angery-kirby.png
+  - name: aussiereversecongaparrot
+    src: ./aussiereversecongaparrot.gif
+  - name: magic
+    src: ./magic.png
+  - name: truewaffle
+    src: ./truewaffle.png
+  - name: pbr
+    src: ./pbr.jpeg
+  - name: iq-enhancing-helmet
+    src: ./iq-enhancing-helmet.png
+  - name: kanat
+    src: ./kanat.png
+  - name: ryangoslingparrot
+    src: ./ryangoslingparrot.gif
+  - name: wtfwave2
+    src: ./wtfwave2.gif
+  - name: mindblown2
+    src: ./mindblown2.gif
+  - name: rip-me
+    src: ./rip-me.png
+  - name: parrotwave4
+    src: ./parrotwave4.gif
+  - name: staples
+    src: ./staples.png
+  - name: awwyeah
+    src: ./awwyeah.png
+  - name: gulp
+    src: ./gulp.png
+  - name: spongeblob-plankton
+    src: ./spongeblob-plankton.png
+  - name: party_parrot_shuffle
+    src: ./party_parrot_shuffle.gif
+  - name: partying
+    src: ./partying.png
+  - name: parrotwave1
+    src: ./parrotwave1.gif
+  - name: mario-blob
+    src: ./mario-blob.png
+  - name: owo-cat
+    src: ./owo-cat.png
+  - name: c3po
+    src: ./c3po.png
+  - name: epic_win
+    src: ./epic_win.png
+  - name: right_fist
+    src: ./right_fist.png
+  - name: chewie
+    src: ./chewie.png
+  - name: spongebob-mock
+    src: ./spongebob-mock.png
+  - name: deathstar2
+    src: ./deathstar2.png
+  - name: badumtish
+    src: ./badumtish.gif
+  - name: blob-mindblown
+    src: ./blob-mindblown.png
+  - name: cowboy-smirk
+    src: ./cowboy-smirk.png
+  - name: ok_hand_flipped
+    src: ./ok_hand_flipped.png
+  - name: salute
+    src: ./salute.gif
+  - name: kermit_tea
+    src: ./kermit_tea.png
+  - name: mystic
+    src: ./mystic.png
+  - name: tux
+    src: ./tux.png
+  - name: product-hunt
+    src: ./product-hunt.png
+  - name: computer-rage
+    src: ./computer-rage.gif
+  - name: git
+    src: ./git.png
+  - name: ololo
+    src: ./ololo.gif
+  - name: wizards
+    src: ./wizards.png
+  - name: teaspoon
+    src: ./teaspoon.png
+  - name: syrup
+    src: ./syrup.png
+  - name: thankyou
+    src: ./thankyou.gif
+  - name: parrotwave7
+    src: ./parrotwave7.gif
+  - name: pentagram
+    src: ./pentagram.png
+  - name: insanity_wolf
+    src: ./insanity_wolf.png
+  - name: itaranosaurus
+    src: ./itaranosaurus.png
+  - name: watch_out
+    src: ./watch_out.png
+  - name: fist-bump
+    src: ./fist-bump.gif
+  - name: trello
+    src: ./trello.png
+  - name: thats-the-joke
+    src: ./thats-the-joke.png
+  - name: producthunt
+    src: ./producthunt.png
+  - name: cremebrulee
+    src: ./cremebrulee.png
+  - name: appleinc
+    src: ./appleinc.png
+  - name: freddo
+    src: ./freddo.png
+  - name: vinyl
+    src: ./vinyl.png
+  - name: meowth
+    src: ./meowth.png
+  - name: tunak-tunak
+    src: ./tunak-tunak.png
+  - name: captain_america
+    src: ./captain_america.gif
+  - name: letsplay
+    src: ./letsplay.gif
+  - name: ge
+    src: ./ge.jpeg
+  - name: victory
+    src: ./victory.png
+  - name: bb82
+    src: ./bb82.png
+  - name: entrigd
+    src: ./entrigd.png
+  - name: no-u
+    src: ./no-u.png
+  - name: chonk
+    src: ./chonk.png
+  - name: binary_tree
+    src: ./binary_tree.png
+  - name: doom_mad
+    src: ./doom_mad.gif
+  - name: hillary
+    src: ./hillary.jpeg
+  - name: kippa
+    src: ./kippa.png
+  - name: talking-on-the-phone-happy
+    src: ./talking-on-the-phone-happy.png
+  - name: bro-code
+    src: ./bro-code.png
+  - name: rainbow_puke
+    src: ./rainbow_puke.jpeg
+  - name: condescending_smiley_face
+    src: ./condescending_smiley_face.png
+  - name: candy-cane
+    src: ./candy-cane.png
+  - name: pipehype
+    src: ./pipehype.png
+  - name: gurren_lagann
+    src: ./gurren_lagann.png
+  - name: osbury
+    src: ./osbury.png
+  - name: supersaiyan
+    src: ./supersaiyan.jpeg
+  - name: oof
+    src: ./oof.png
+  - name: sadglasses
+    src: ./sadglasses.png
+  - name: boba
+    src: ./boba.png
+  - name: gronk-zany
+    src: ./gronk-zany.png
+  - name: tesla
+    src: ./tesla.jpeg
+  - name: harvest_app
+    src: ./harvest_app.png
+  - name: bfsob
+    src: ./bfsob.png
+  - name: aws
+    src: ./aws.png
+  - name: motherofgod
+    src: ./motherofgod.png
+  - name: not_metal
+    src: ./not_metal.png
+  - name: facepalm5
+    src: ./facepalm5.png
+  - name: r2d2_2
+    src: ./r2d2_2.png
+  - name: jj-watt
+    src: ./jj-watt.png
+  - name: homejoy
+    src: ./homejoy.png
+  - name: rich-hickey
+    src: ./rich-hickey.jpeg
+  - name: tacoparrot
+    src: ./tacoparrot.gif
+  - name: feesh
+    src: ./feesh.png
+  - name: what
+    src: ./what.gif
+  - name: kenm
+    src: ./kenm.png
+  - name: fudge
+    src: ./fudge.png
+  - name: me-too
+    src: ./me-too.png
+  - name: thank-you
+    src: ./thank-you.png
+  - name: surrender
+    src: ./surrender.gif
+  - name: prchase
+    src: ./prchase.png
+  - name: imzy
+    src: ./imzy.png
+  - name: see_no_evil_animated
+    src: ./see_no_evil_animated.gif
+  - name: optimizeprime
+    src: ./optimizeprime.png
+  - name: bulbasaur
+    src: ./bulbasaur.png
+  - name: parrotsleep
+    src: ./parrotsleep.gif
+  - name: deexcite
+    src: ./deexcite.png
+  - name: sonic_waiting
+    src: ./sonic_waiting.gif
+  - name: foghorn
+    src: ./foghorn.png
+  - name: ledsen
+    src: ./ledsen.png
+  - name: excite_biker
+    src: ./excite_biker.gif
+  - name: evilgrin
+    src: ./evilgrin.gif
+  - name: too-damn-high
+    src: ./too-damn-high.png
+  - name: stardust
+    src: ./stardust.png
+  - name: zen
+    src: ./zen.png
+  - name: monsters-inc-boo
+    src: ./monsters-inc-boo.png
+  - name: ferret_face
+    src: ./ferret_face.png
+  - name: andrew-luck
+    src: ./andrew-luck.png
+  - name: steven
+    src: ./steven.png
+  - name: doom_flame_barrel
+    src: ./doom_flame_barrel.gif
+  - name: itisyourbirthday
+    src: ./itisyourbirthday.jpeg
+  - name: database
+    src: ./database.png
+  - name: epic-croissant
+    src: ./epic-croissant.png
+  - name: zany_face_facebook
+    src: ./zany_face_facebook.png
+  - name: you_dont_say
+    src: ./you_dont_say.png
+  - name: aleph0
+    src: ./aleph0.png
+  - name: lucas_snack
+    src: ./lucas_snack.jpeg
+  - name: ms-onenote
+    src: ./ms-onenote.png
+  - name: mavericks
+    src: ./mavericks.png
+  - name: lul
+    src: ./lul.png
+  - name: fake-erics
+    src: ./fake-erics.jpeg
+  - name: dreamworks_smirk
+    src: ./dreamworks_smirk.jpeg
+  - name: weed
+    src: ./weed.png
+  - name: stripe
+    src: ./stripe.png
+  - name: ololow
+    src: ./ololow.gif
+  - name: peace
+    src: ./peace.gif
+  - name: backhand
+    src: ./backhand.png
+  - name: blood
+    src: ./blood.jpeg
+  - name: nightking
+    src: ./nightking.png
+  - name: f-bomb
+    src: ./f-bomb.png
+  - name: thanks
+    src: ./thanks.png
+  - name: headdesk
+    src: ./headdesk.gif
+  - name: bummerman
+    src: ./bummerman.png
+  - name: cortana
+    src: ./cortana.png
+  - name: ch-dance
+    src: ./ch-dance.gif
+  - name: good-boy
+    src: ./good-boy.png
+  - name: cersei
+    src: ./cersei.png
+  - name: nigiri
+    src: ./nigiri.png
+  - name: candiedapple
+    src: ./candiedapple.png
+  - name: feelsgood
+    src: ./feelsgood.png
+  - name: sushiparrot
+    src: ./sushiparrot.gif
+  - name: rollsafe
+    src: ./rollsafe.png
+  - name: dead_horse
+    src: ./dead_horse.gif
+  - name: all-hail-flipped
+    src: ./all-hail-flipped.gif
+  - name: medicine
+    src: ./medicine.png
+  - name: y_u_no
+    src: ./y_u_no.png
+  - name: web-components
+    src: ./web-components.png
+  - name: hey-google
+    src: ./hey-google.gif
+  - name: bfno
+    src: ./bfno.png
+  - name: fidget-spinner
+    src: ./fidget-spinner.gif
+  - name: rockout
+    src: ./rockout.gif
+  - name: joncarnage
+    src: ./joncarnage.png
+  - name: mcbeast
+    src: ./mcbeast.png
+  - name: orly
+    src: ./orly.jpeg
+  - name: slowparrot
+    src: ./slowparrot.gif
+  - name: matrix
+    src: ./matrix.gif
+  - name: wendyparrot
+    src: ./wendyparrot.gif
+  - name: residentsleeper
+    src: ./residentsleeper.png
+  - name: doot
+    src: ./doot.png
+  - name: downvote
+    src: ./downvote.png
+  - name: angery-animated
+    src: ./angery-animated.gif
+  - name: pumpgirlrevers
+    src: ./pumpgirlrevers.gif
+  - name: head-in-the-clouds
+    src: ./head-in-the-clouds.png
+  - name: thought-balloon-bottom-middle
+    src: ./thought-balloon-bottom-middle.png
+  - name: bfkiss
+    src: ./bfkiss.png
+  - name: dead-chat
+    src: ./dead-chat.png
+  - name: shooting
+    src: ./shooting.gif
+  - name: antergos-linux
+    src: ./antergos-linux.png
+  - name: juicebox
+    src: ./juicebox.png
+  - name: xena
+    src: ./xena.png
+  - name: hunger_games_salute
+    src: ./hunger_games_salute.png
+  - name: coffeeparrot
+    src: ./coffeeparrot.gif
+  - name: disco_dance
+    src: ./disco_dance.gif
+  - name: cornholio
+    src: ./cornholio.png
+  - name: stroke
+    src: ./stroke.png
+  - name: ackbar
+    src: ./ackbar.png
+  - name: lebowski-what-day
+    src: ./lebowski-what-day.gif
+  - name: flounder
+    src: ./flounder.png
+  - name: django
+    src: ./django.png
+  - name: drake_no
+    src: ./drake_no.png
+  - name: hipster
+    src: ./hipster.png
+  - name: peanut
+    src: ./peanut.png
+  - name: chip
+    src: ./chip.png
+  - name: owo-cry
+    src: ./owo-cry.png
+  - name: christmas-blob
+    src: ./christmas-blob.png
+  - name: shazam
+    src: ./shazam.png
+  - name: sarc
+    src: ./sarc.png
+  - name: donutparrot
+    src: ./donutparrot.gif
+  - name: delorean
+    src: ./delorean.gif
+  - name: alpine-linux
+    src: ./alpine-linux.png
+  - name: daenery
+    src: ./daenery.png
+  - name: sad_trombone
+    src: ./sad_trombone.png
+  - name: redhat-linux
+    src: ./redhat-linux.png
+  - name: pacha
+    src: ./pacha.png
+  - name: reversecongaparrot
+    src: ./reversecongaparrot.gif
+  - name: idgaf-1
+    src: ./idgaf-1.png
+  - name: smash
+    src: ./smash.png
+  - name: marchsadness
+    src: ./marchsadness.jpeg
+  - name: justright
+    src: ./justright.png
+  - name: redskins
+    src: ./redskins.png
+  - name: joshgordon
+    src: ./joshgordon.png
+  - name: prettyinstant
+    src: ./prettyinstant.png
+  - name: sexy
+    src: ./sexy.jpeg
+  - name: fb-angry
+    src: ./fb-angry.gif
+  - name: heroku
+    src: ./heroku.png
+  - name: tyrion
+    src: ./tyrion.png
+  - name: nicmoji_smile
+    src: ./nicmoji_smile.gif
+  - name: fitbit
+    src: ./fitbit.png
+  - name: ralpherz
+    src: ./ralpherz.png
+  - name: auba
+    src: ./auba.jpeg
+  - name: hungry
+    src: ./hungry.jpeg
+  - name: uber
+    src: ./uber.png
+  - name: shit-hit-the-fan
+    src: ./shit-hit-the-fan.gif
+  - name: eagle-mcmahon
+    src: ./eagle-mcmahon.png
+  - name: fedora
+    src: ./fedora.png
+  - name: cat-ban
+    src: ./cat-ban.gif
+  - name: consul
+    src: ./consul.png
+  - name: purpose
+    src: ./purpose.png
+  - name: wait
+    src: ./wait.jpeg
+  - name: wazard
+    src: ./wazard.png
+  - name: otter-heart
+    src: ./otter-heart.png
+  - name: peopleschamp
+    src: ./peopleschamp.png
+  - name: dathass
+    src: ./dathass.png
+  - name: happening
+    src: ./happening.gif
+  - name: amen
+    src: ./amen.gif
+  - name: slow-clap
+    src: ./slow-clap.gif
+  - name: tantastic
+    src: ./tantastic.png
+  - name: monkey-pump
+    src: ./monkey-pump.gif
+  - name: dabbing
+    src: ./dabbing.gif
+  - name: hobbes2
+    src: ./hobbes2.png
+  - name: challenge_accepted
+    src: ./challenge_accepted.jpeg
+  - name: woot
+    src: ./woot.png
+  - name: tripletsparrot
+    src: ./tripletsparrot.gif
+  - name: captain_phasma
+    src: ./captain_phasma.png
+  - name: blackswan
+    src: ./blackswan.png
+  - name: auto-rickshaw
+    src: ./auto-rickshaw.png
+  - name: mlao
+    src: ./mlao.png
+  - name: javascript
+    src: ./javascript.png
+  - name: magic2
+    src: ./magic2.gif
+  - name: dogface
+    src: ./dogface.png
+  - name: facepalm
+    src: ./facepalm.png
+  - name: cocaine
+    src: ./cocaine.png
+  - name: google
+    src: ./google.png
+  - name: bran
+    src: ./bran.png
+  - name: salesforce
+    src: ./salesforce.png
+  - name: beanbag
+    src: ./beanbag.png
+  - name: redux
+    src: ./redux.png
+  - name: razorbacks
+    src: ./razorbacks.png
+  - name: nginx
+    src: ./nginx.png
+  - name: challengedenied
+    src: ./challengedenied.jpeg
+  - name: failfish
+    src: ./failfish.png
+  - name: asana
+    src: ./asana.png
+  - name: luckdragon-happy
+    src: ./luckdragon-happy.jpeg
+  - name: redis
+    src: ./redis.png
+  - name: black_cat
+    src: ./black_cat.png
+  - name: crying_jordan
+    src: ./crying_jordan.png
+  - name: sleeping-kirby
+    src: ./sleeping-kirby.png
+  - name: brb
+    src: ./brb.gif
+  - name: pikachu2
+    src: ./pikachu2.png
+  - name: jebaited
+    src: ./jebaited.png
+  - name: evil
+    src: ./evil.png
+  - name: peyton
+    src: ./peyton.png
+  - name: festive-smirk
+    src: ./festive-smirk.png
+  - name: tinfoilhat
+    src: ./tinfoilhat.gif
+  - name: grumpycat
+    src: ./grumpycat.png
+  - name: reddit
+    src: ./reddit.png
+  - name: spoderman
+    src: ./spoderman.gif
+  - name: docker-cleanup
+    src: ./docker-cleanup.png
+  - name: rebel
+    src: ./rebel.png
+  - name: polymer
+    src: ./polymer.png
+  - name: blingee
+    src: ./blingee.png
+  - name: sad_obama
+    src: ./sad_obama.png
+  - name: hyrule
+    src: ./hyrule.png
+  - name: wtf-loop
+    src: ./wtf-loop.gif
+  - name: buddhabar
+    src: ./buddhabar.png
+  - name: clown-flushed
+    src: ./clown-flushed.png
+  - name: gronk-strong
+    src: ./gronk-strong.png
+  - name: double-facepalm
+    src: ./double-facepalm.png
+  - name: superman
+    src: ./superman.jpeg
+  - name: esperanto
+    src: ./esperanto.png
+  - name: crown-turtle
+    src: ./crown-turtle.png
+  - name: dinosaur
+    src: ./dinosaur.jpeg
+  - name: simple_smile
+    src: ./simple_smile.png
+  - name: pass
+    src: ./pass.png
+  - name: katy
+    src: ./katy.gif
+  - name: bfbow
+    src: ./bfbow.png
+  - name: wrightsbbq
+    src: ./wrightsbbq.jpeg
+  - name: excited2
+    src: ./excited2.gif
+  - name: pepperdance
+    src: ./pepperdance.gif
+  - name: yarly
+    src: ./yarly.jpeg
+  - name: make-it-rain2
+    src: ./make-it-rain2.jpeg
+  - name: guy-fieri-parrot
+    src: ./guy-fieri-parrot.gif
+  - name: klobuchar
+    src: ./klobuchar.png
+  - name: trump
+    src: ./trump.png
+  - name: slowclap
+    src: ./slowclap.gif
+  - name: bob_ross
+    src: ./bob_ross.gif
+  - name: parrotgoth
+    src: ./parrotgoth.gif
+  - name: evil-plotting
+    src: ./evil-plotting.jpeg
+  - name: spongeblob-old-man-jenkins
+    src: ./spongeblob-old-man-jenkins.png
+  - name: racket
+    src: ./racket.png
+  - name: yawn
+    src: ./yawn.png
+  - name: jarjarbinks
+    src: ./jarjarbinks.gif
+  - name: unicorn
+    src: ./unicorn.gif
+  - name: hq-trivia
+    src: ./hq-trivia.png
+  - name: belichick
+    src: ./belichick.png
+  - name: bundle
+    src: ./bundle.png
+  - name: pusheen-1
+    src: ./pusheen-1.gif
+  - name: shrug2
+    src: ./shrug2.png
+  - name: java
+    src: ./java.png
+  - name: onetruegod
+    src: ./onetruegod.png
+  - name: partyparrot
+    src: ./partyparrot.gif
+  - name: knitting
+    src: ./knitting.png
+  - name: fan
+    src: ./fan.jpeg
+  - name: jelly
+    src: ./jelly.jpeg
+  - name: trex
+    src: ./trex.png
+  - name: fridayfriday
+    src: ./fridayfriday.png
+  - name: jigglypuff
+    src: ./jigglypuff.png
+  - name: ravens
+    src: ./ravens.png
+  - name: darkbeerparrot
+    src: ./darkbeerparrot.gif
+  - name: clown-cool
+    src: ./clown-cool.png
+  - name: groovy
+    src: ./groovy.png
+  - name: natesexton
+    src: ./natesexton.png
+  - name: mushroom_cloud
+    src: ./mushroom_cloud.gif
+  - name: pregnant
+    src: ./pregnant.png
+  - name: pumpkin-think
+    src: ./pumpkin-think.png
+  - name: ibm
+    src: ./ibm.png
+  - name: ninja
+    src: ./ninja.gif
+  - name: bob_ross
+    src: ./bob_ross.png
+  - name: thumbsup_all
+    src: ./thumbsup_all.gif
+  - name: knot
+    src: ./knot.jpeg
+  - name: omglol
+    src: ./omglol.gif
+  - name: gtfo
+    src: ./gtfo.png
+  - name: bloodborne
+    src: ./bloodborne.png
+  - name: yourethemandroid
+    src: ./yourethemandroid.png
+  - name: teal_deer
+    src: ./teal_deer.jpeg
+  - name: jerry
+    src: ./jerry.jpeg
+  - name: wontfix
+    src: ./wontfix.png
+  - name: parrotoldtimey
+    src: ./parrotoldtimey.gif
+  - name: determined2
+    src: ./determined2.jpeg
+  - name: mongodb
+    src: ./mongodb.png
+  - name: pelicans
+    src: ./pelicans.png
+  - name: strawberry-donut
+    src: ./strawberry-donut.png
+  - name: bobba_fett
+    src: ./bobba_fett.gif
+  - name: beth
+    src: ./beth.jpeg
+  - name: belt
+    src: ./belt.png
+  - name: 3-14159265358979323846264338327950288419716939937510582
+    src: ./3-14159265358979323846264338327950288419716939937510582.png
+  - name: trash
+    src: ./trash.gif
+  - name: vulcan
+    src: ./vulcan.png
+  - name: ezpz
+    src: ./ezpz.png
+  - name: discoparrot
+    src: ./discoparrot.gif
+  - name: eat
+    src: ./eat.gif
+  - name: shitstorm
+    src: ./shitstorm.gif
+  - name: heisenberg
+    src: ./heisenberg.jpeg
+  - name: benji
+    src: ./benji.jpeg
+  - name: cryptoparrot
+    src: ./cryptoparrot.gif
+  - name: whatyearisit
+    src: ./whatyearisit.png
+  - name: mrdestructoid
+    src: ./mrdestructoid.png
+  - name: code2
+    src: ./code2.jpeg
+  - name: morty2
+    src: ./morty2.png
+  - name: motherofgod
+    src: ./motherofgod.gif
+  - name: stronglikebull
+    src: ./stronglikebull.png
+  - name: narwhalbacon
+    src: ./narwhalbacon.jpeg
+  - name: rafiki
+    src: ./rafiki.png
+  - name: hahabusiness
+    src: ./hahabusiness.png
+  - name: lattice
+    src: ./lattice.png
+  - name: meat_on_bone_flipped
+    src: ./meat_on_bone_flipped.png
+  - name: electron
+    src: ./electron.png
+  - name: corgi
+    src: ./corgi.gif
+  - name: please-dont-at-here
+    src: ./please-dont-at-here.png
+  - name: landspeeder
+    src: ./landspeeder.png
+  - name: gronk-flex
+    src: ./gronk-flex.png
+  - name: chillparrot
+    src: ./chillparrot.gif
+  - name: ping-circle
+    src: ./ping-circle.png
+  - name: pikachu
+    src: ./pikachu.gif
+  - name: tiefighter
+    src: ./tiefighter.gif
+  - name: mardisgras
+    src: ./mardisgras.gif
+  - name: celeryman
+    src: ./celeryman.gif
+  - name: lazy
+    src: ./lazy.jpeg
+  - name: whistling
+    src: ./whistling.png
+  - name: feelsbirthdayman
+    src: ./feelsbirthdayman.png
+  - name: absolute-huenit
+    src: ./absolute-huenit.gif
+  - name: mr-meeseeks-box
+    src: ./mr-meeseeks-box.png
+  - name: bikeshed
+    src: ./bikeshed.png
+  - name: shia
+    src: ./shia.gif
+  - name: spiderman
+    src: ./spiderman.gif
+  - name: yeet
+    src: ./yeet.png
+  - name: browncoat
+    src: ./browncoat.png
+  - name: visual-studio
+    src: ./visual-studio.png
+  - name: gronk-think
+    src: ./gronk-think.png
+  - name: dab-penguin
+    src: ./dab-penguin.png
+  - name: nemo
+    src: ./nemo.gif
+  - name: balloonface
+    src: ./balloonface.gif
+  - name: 200-iq
+    src: ./200-iq.png
+  - name: npm
+    src: ./npm.png
+  - name: ffuu
+    src: ./ffuu.png
+  - name: cute
+    src: ./cute.png
+  - name: pigpen
+    src: ./pigpen.png
+  - name: eagleeye
+    src: ./eagleeye.png
+  - name: pubg-groza
+    src: ./pubg-groza.png
+  - name: thecheat
+    src: ./thecheat.gif
+  - name: nyan-party
+    src: ./nyan-party.gif
+  - name: onedoesnotsimply
+    src: ./onedoesnotsimply.jpeg
+  - name: sun
+    src: ./sun.gif
+  - name: flash-think
+    src: ./flash-think.png
+  - name: crickets
+    src: ./crickets.png
+  - name: arthur-dance
+    src: ./arthur-dance.gif
+  - name: bfcongrats
+    src: ./bfcongrats.png
+  - name: awesome
+    src: ./awesome.png
+  - name: peterchu
+    src: ./peterchu.png
+  - name: feels_bad_man
+    src: ./feels_bad_man.png
+  - name: skype
+    src: ./skype.png
+  - name: slack_call
+    src: ./slack_call.png
+  - name: fist_bump
+    src: ./fist_bump.gif
+  - name: creeper
+    src: ./creeper.jpeg
+  - name: discmania-bar
+    src: ./discmania-bar.png
+  - name: juice
+    src: ./juice.png
+  - name: absolute-unit
+    src: ./absolute-unit.gif
+  - name: truestory
+    src: ./truestory.png
+  - name: flavortown
+    src: ./flavortown.png
+  - name: edamame
+    src: ./edamame.png
+  - name: aleph1
+    src: ./aleph1.png
+  - name: cupcake
+    src: ./cupcake.png
+  - name: flag-eo
+    src: ./flag-eo.png
+  - name: awwyiss
+    src: ./awwyiss.png
+  - name: waiting
+    src: ./waiting.gif
+  - name: aww
+    src: ./aww.gif
+  - name: bloodborne3
+    src: ./bloodborne3.png
+  - name: twitter
+    src: ./twitter.png
+  - name: chemex2
+    src: ./chemex2.png
+  - name: objective-c
+    src: ./objective-c.png
+  - name: lovebirds
+    src: ./lovebirds.png
+  - name: reviewable
+    src: ./reviewable.png
+  - name: voldemort
+    src: ./voldemort.png
+  - name: arsenal
+    src: ./arsenal.png
+  - name: stuffed
+    src: ./stuffed.png
+  - name: clown-cop
+    src: ./clown-cop.png
+  - name: miketrout
+    src: ./miketrout.jpeg
+  - name: left_fist
+    src: ./left_fist.png
+  - name: coldbrew
+    src: ./coldbrew.jpeg
+  - name: freezing
+    src: ./freezing.png
+  - name: spongeblob-stanley
+    src: ./spongeblob-stanley.png
+  - name: cestunemoji
+    src: ./cestunemoji.png
+  - name: kevinturtle
+    src: ./kevinturtle.png
+  - name: yuno
+    src: ./yuno.png
+  - name: tapping-to-a-beat
+    src: ./tapping-to-a-beat.gif
+  - name: take_my_money
+    src: ./take_my_money.png
+  - name: bfhaha
+    src: ./bfhaha.png
+  - name: osbeaver
+    src: ./osbeaver.png
+  - name: analytics_loader
+    src: ./analytics_loader.gif
+  - name: sunglasses-rich
+    src: ./sunglasses-rich.png
+  - name: beretparrot
+    src: ./beretparrot.gif
+  - name: phoenix2
+    src: ./phoenix2.png
+  - name: happy_obama
+    src: ./happy_obama.png
+  - name: no
+    src: ./no.jpeg
+  - name: koopakart
+    src: ./koopakart.gif
+  - name: wonder_woman
+    src: ./wonder_woman.png
+  - name: oldtimeyparrot
+    src: ./oldtimeyparrot.gif
+  - name: grinch
+    src: ./grinch.gif
+  - name: stableparrot
+    src: ./stableparrot.gif
+  - name: godmode
+    src: ./godmode.png
+  - name: seemsgood
+    src: ./seemsgood.png
+  - name: terry_tate
+    src: ./terry_tate.png
+  - name: unaiemery
+    src: ./unaiemery.jpeg
+  - name: fox5
+    src: ./fox5.gif
+  - name: shippable
+    src: ./shippable.jpeg
+  - name: scienceparrot
+    src: ./scienceparrot.gif
+  - name: dawae
+    src: ./dawae.png
+  - name: thunbeast
+    src: ./thunbeast.png
+  - name: kj
+    src: ./kj.png
+  - name: glare2
+    src: ./glare2.png
+  - name: dropbox
+    src: ./dropbox.png
+  - name: twitchraid
+    src: ./twitchraid.png
+  - name: deadlyspider
+    src: ./deadlyspider.jpeg
+  - name: fsjal
+    src: ./fsjal.png
+  - name: wat
+    src: ./wat.png
+  - name: facepalm4
+    src: ./facepalm4.png
+  - name: pc-principal
+    src: ./pc-principal.png
+  - name: eagles
+    src: ./eagles.gif
+  - name: lies
+    src: ./lies.png
+  - name: praise-it
+    src: ./praise-it.png
+  - name: dealwithitparrot
+    src: ./dealwithitparrot.gif
+  - name: jk
+    src: ./jk.png
+  - name: absolute-spidey
+    src: ./absolute-spidey.gif
+  - name: this-much
+    src: ./this-much.png
+  - name: biohazard
+    src: ./biohazard.png
+  - name: trump-poop
+    src: ./trump-poop.png
+  - name: halalparrot
+    src: ./halalparrot.gif
+  - name: tmi
+    src: ./tmi.gif
+  - name: monocle
+    src: ./monocle.png
+  - name: success
+    src: ./success.png
+  - name: laughing-kirby
+    src: ./laughing-kirby.png
+  - name: dredd
+    src: ./dredd.gif
+  - name: cougarhunt
+    src: ./cougarhunt.png
+  - name: rigby
+    src: ./rigby.jpeg
+  - name: minnie-mouse
+    src: ./minnie-mouse.png
+  - name: miranda-docktor-1
+    src: ./miranda-docktor-1.png
+  - name: meditating
+    src: ./meditating.gif
+  - name: gmail
+    src: ./gmail.png
+  - name: kp-listening
+    src: ./kp-listening.png
+  - name: businesscat
+    src: ./businesscat.jpeg
+  - name: tinder
+    src: ./tinder.png
+  - name: man_dancer
+    src: ./man_dancer.png
+  - name: mario_luigi_dance
+    src: ./mario_luigi_dance.gif
+  - name: hypnotoad2
+    src: ./hypnotoad2.gif
+  - name: ming
+    src: ./ming.png
+  - name: totoro
+    src: ./totoro.gif
+  - name: interdimensional-goggles
+    src: ./interdimensional-goggles.png
+  - name: blacksun
+    src: ./blacksun.png
+  - name: drool
+    src: ./drool.gif
+  - name: analytics
+    src: ./analytics.png
+  - name: mario-think
+    src: ./mario-think.png
+  - name: nsfw
+    src: ./nsfw.png
+  - name: duarte
+    src: ./duarte.png
+  - name: no_reviewable
+    src: ./no_reviewable.png
+  - name: annoyed
+    src: ./annoyed.jpeg
+  - name: valor
+    src: ./valor.gif
+  - name: zombie_walk
+    src: ./zombie_walk.gif
+  - name: haskell
+    src: ./haskell.png
+  - name: flan
+    src: ./flan.png
+  - name: panic-basket
+    src: ./panic-basket.png
+  - name: twinsparrot
+    src: ./twinsparrot.gif
+  - name: two-thumbs-down
+    src: ./two-thumbs-down.png
+  - name: edge
+    src: ./edge.png
+  - name: monkahmm
+    src: ./monkahmm.png
+  - name: deadmau5
+    src: ./deadmau5.png
+  - name: bug6
+    src: ./bug6.png
+  - name: librato
+    src: ./librato.png
+  - name: bicep
+    src: ./bicep.png
+  - name: ruby
+    src: ./ruby.png
+  - name: fsjal-flipped
+    src: ./fsjal-flipped.png
+  - name: two_cents
+    src: ./two_cents.gif
+  - name: +1left
+    src: ./+1left.png
+  - name: disapproval
+    src: ./disapproval.png
+  - name: ayaya
+    src: ./ayaya.png
+  - name: toast
+    src: ./toast.png
+  - name: cerealspit
+    src: ./cerealspit.png
+  - name: irony
+    src: ./irony.jpeg
+  - name: ohyeah
+    src: ./ohyeah.gif
+  - name: thought-balloon-bottom-right
+    src: ./thought-balloon-bottom-right.png
+  - name: bagel
+    src: ./bagel.jpeg
+  - name: bucks
+    src: ./bucks.png
+  - name: all-hail
+    src: ./all-hail.gif
+  - name: mustache
+    src: ./mustache.png
+  - name: iagree
+    src: ./iagree.gif
+  - name: coolio
+    src: ./coolio.jpeg
+  - name: yakshave
+    src: ./yakshave.gif
+  - name: snake-cowboy
+    src: ./snake-cowboy.png
+  - name: high_speed_rail
+    src: ./high_speed_rail.png
+  - name: spongeblob-squidward
+    src: ./spongeblob-squidward.png
+  - name: want
+    src: ./want.jpeg
+  - name: prettier
+    src: ./prettier.png
+  - name: gasjoker
+    src: ./gasjoker.png
+  - name: link-triforce
+    src: ./link-triforce.png
+  - name: this_guy
+    src: ./this_guy.jpeg
+  - name: pensive-gusher-cowboy
+    src: ./pensive-gusher-cowboy.png
+  - name: death_star
+    src: ./death_star.png
+  - name: idgafaf
+    src: ./idgafaf.gif
+  - name: powerpoint
+    src: ./powerpoint.png
+  - name: atom-editor
+    src: ./atom-editor.png
+  - name: fewer
+    src: ./fewer.png
+  - name: killitwithfire
+    src: ./killitwithfire.gif
+  - name: kid-deal
+    src: ./kid-deal.gif
+  - name: parrotbeer
+    src: ./parrotbeer.gif
+  - name: left_shark
+    src: ./left_shark.gif
+  - name: bug4
+    src: ./bug4.png
+  - name: fb-heart
+    src: ./fb-heart.gif
+  - name: mysql
+    src: ./mysql.png
+  - name: funrun
+    src: ./funrun.png
+  - name: git-pull-merged
+    src: ./git-pull-merged.png
+  - name: mechasupes
+    src: ./mechasupes.png
+  - name: yoga
+    src: ./yoga.gif
+  - name: clarity_clarence
+    src: ./clarity_clarence.png
+  - name: luckdragon-sad
+    src: ./luckdragon-sad.png
+  - name: porgie
+    src: ./porgie.png
+  - name: hurricane
+    src: ./hurricane.png
+  - name: two-cents
+    src: ./two-cents.jpeg
+  - name: teton
+    src: ./teton.png
+  - name: owo-teemo
+    src: ./owo-teemo.png
+  - name: steak
+    src: ./steak.png
+  - name: ohgodwhy
+    src: ./ohgodwhy.png
+  - name: clown
+    src: ./clown.png
+  - name: tbsriracha
+    src: ./tbsriracha.png
+  - name: ossloth
+    src: ./ossloth.png
+  - name: xwing
+    src: ./xwing.png
+  - name: toilet-paper
+    src: ./toilet-paper.png
+  - name: squirrel
+    src: ./squirrel.png
+  - name: toggl
+    src: ./toggl.png
+  - name: marvin
+    src: ./marvin.png
+  - name: spruce
+    src: ./spruce.jpeg
+  - name: blob-aww
+    src: ./blob-aww.png
+  - name: pizzaspin
+    src: ./pizzaspin.gif
+  - name: xzibit
+    src: ./xzibit.png
+  - name: humpday
+    src: ./humpday.png
+  - name: chick-fil-a
+    src: ./chick-fil-a.png
+  - name: booom
+    src: ./booom.gif
+  - name: burrito2
+    src: ./burrito2.png
+  - name: cartman
+    src: ./cartman.png
+  - name: butter
+    src: ./butter.gif
+  - name: mystery_machine
+    src: ./mystery_machine.png
+  - name: mighty_mouse
+    src: ./mighty_mouse.png
+  - name: spidey
+    src: ./spidey.png
+  - name: cloud9
+    src: ./cloud9.png
+  - name: rube
+    src: ./rube.png
+  - name: readingpoopincrying
+    src: ./readingpoopincrying.png
+  - name: rage4
+    src: ./rage4.png
+  - name: swiftrage
+    src: ./swiftrage.png
+  - name: spongeblob-gary
+    src: ./spongeblob-gary.png
+  - name: panicvis
+    src: ./panicvis.png
+  - name: anonymous
+    src: ./anonymous.png
+  - name: 99
+    src: ./99.png
+  - name: praisethesun
+    src: ./praisethesun.jpeg
+  - name: hillary_clinton
+    src: ./hillary_clinton.png
+  - name: lgtm
+    src: ./lgtm.png
+  - name: stackoverflow
+    src: ./stackoverflow.png
+  - name: spongeblob-mr-krabs
+    src: ./spongeblob-mr-krabs.png
+  - name: kermitflail
+    src: ./kermitflail.gif
+  - name: youdontsay
+    src: ./youdontsay.png
+  - name: latte
+    src: ./latte.png
+  - name: thought-balloon-bottom-left
+    src: ./thought-balloon-bottom-left.png
+  - name: illuminati
+    src: ./illuminati.png
+  - name: rainbowfrog
+    src: ./rainbowfrog.gif
+  - name: left_align
+    src: ./left_align.png
+  - name: mailchimp
+    src: ./mailchimp.png
+  - name: hyperpog_flipped
+    src: ./hyperpog_flipped.gif
+  - name: henery
+    src: ./henery.jpeg
+  - name: fuckyeah
+    src: ./fuckyeah.png
+  - name: bowser_kart
+    src: ./bowser_kart.gif
+  - name: pog
+    src: ./pog.png
+  - name: craft
+    src: ./craft.png
+  - name: potion
+    src: ./potion.png
+  - name: jkanstyle
+    src: ./jkanstyle.png
+  - name: bloodtrail
+    src: ./bloodtrail.png
+  - name: github_octocat
+    src: ./github_octocat.png
+  - name: fungineer
+    src: ./fungineer.png
+  - name: spin-think
+    src: ./spin-think.gif
+  - name: crying_kim_kardashian
+    src: ./crying_kim_kardashian.png
+  - name: sobayed
+    src: ./sobayed.png
+  - name: smdh
+    src: ./smdh.png
+  - name: skeptical
+    src: ./skeptical.jpeg
+  - name: ovechkin
+    src: ./ovechkin.jpeg
+  - name: swan
+    src: ./swan.gif
+  - name: these_are_not_the_droids_you_are_looking_for
+    src: ./these_are_not_the_droids_you_are_looking_for.gif
+  - name: giggity
+    src: ./giggity.gif
+  - name: mememan
+    src: ./mememan.png
+  - name: barn
+    src: ./barn.png
+  - name: smokeybear
+    src: ./smokeybear.png
+  - name: cylon2
+    src: ./cylon2.gif
+  - name: haha
+    src: ./haha.jpeg
+  - name: shyguy
+    src: ./shyguy.png
+  - name: fastparrot
+    src: ./fastparrot.gif
+  - name: owo
+    src: ./owo.png
+  - name: con-air
+    src: ./con-air.jpeg
+  - name: does-not-approve
+    src: ./does-not-approve.png
+  - name: kzskull
+    src: ./kzskull.png
+  - name: party
+    src: ./party.gif
+  - name: neat
+    src: ./neat.png
+  - name: 1000
+    src: ./1000.png
+  - name: poooound
+    src: ./poooound.png
+  - name: pogchamp
+    src: ./pogchamp.png
+  - name: parrot
+    src: ./parrot.gif
+  - name: the-artist
+    src: ./the-artist.png
+  - name: irish
+    src: ./irish.jpeg
+  - name: happybirthday
+    src: ./happybirthday.gif
+  - name: incubator
+    src: ./incubator.png
+  - name: chandler_dance2
+    src: ./chandler_dance2.gif
+  - name: zany_face_microsoft
+    src: ./zany_face_microsoft.png
+  - name: parrotbored
+    src: ./parrotbored.gif
+  - name: moss
+    src: ./moss.png
+  - name: guinness
+    src: ./guinness.jpeg
+  - name: dancing_corgi
+    src: ./dancing_corgi.gif
+  - name: raise-hand
+    src: ./raise-hand.png
+  - name: arsonnosexy
+    src: ./arsonnosexy.png
+  - name: swag
+    src: ./swag.png
+  - name: picomause
+    src: ./picomause.png
+  - name: happy-docker
+    src: ./happy-docker.png
+  - name: great_leader
+    src: ./great_leader.png
+  - name: water-bottle
+    src: ./water-bottle.png
+  - name: revolutionparrot
+    src: ./revolutionparrot.gif
+  - name: dash-up
+    src: ./dash-up.png
+  - name: girl-power
+    src: ./girl-power.png
+  - name: basecamp
+    src: ./basecamp.png
+  - name: rambo
+    src: ./rambo.gif
+  - name: nicmoji_sad
+    src: ./nicmoji_sad.gif
+  - name: terrycrews
+    src: ./terrycrews.png
+  - name: glitch_crab
+    src: ./glitch_crab.png
+  - name: argieb8
+    src: ./argieb8.png
+  - name: firehouse-sad
+    src: ./firehouse-sad.png
+  - name: catloaf
+    src: ./catloaf.png
+  - name: spongeblob-pineapple
+    src: ./spongeblob-pineapple.png
+  - name: thats-what-she-said
+    src: ./thats-what-she-said.png
+  - name: teamwork
+    src: ./teamwork.png
+  - name: nuh-uh
+    src: ./nuh-uh.gif
+  - name: fireball
+    src: ./fireball.gif
+  - name: tails
+    src: ./tails.gif
+  - name: homer
+    src: ./homer.png
+  - name: pubg-kar
+    src: ./pubg-kar.png
+  - name: grimacing-james
+    src: ./grimacing-james.png
+  - name: jordan_cry
+    src: ./jordan_cry.png
+  - name: fingers_crossed2
+    src: ./fingers_crossed2.jpeg
+  - name: aussieparrot
+    src: ./aussieparrot.gif
+  - name: call_me
+    src: ./call_me.png
+  - name: spurs
+    src: ./spurs.png
+  - name: valor
+    src: ./valor.png
+  - name: mindblown
+    src: ./mindblown.gif
+  - name: shufflefurtherparrot
+    src: ./shufflefurtherparrot.gif
+  - name: suspicious
+    src: ./suspicious.png
+  - name: mgmt
+    src: ./mgmt.jpeg
+  - name: duck-waddle
+    src: ./duck-waddle.gif
+  - name: dont-talk-to-me
+    src: ./dont-talk-to-me.gif
+  - name: good
+    src: ./good.png
+  - name: try-not-to-cry
+    src: ./try-not-to-cry.gif
+  - name: gingerpower
+    src: ./gingerpower.png
+  - name: atww
+    src: ./atww.png
+  - name: bananas
+    src: ./bananas.jpeg
+  - name: negative1
+    src: ./negative1.png
+  - name: octocat
+    src: ./octocat.png
+  - name: trump-kiss
+    src: ./trump-kiss.png
+  - name: thought-balloon-center-left
+    src: ./thought-balloon-center-left.png
+  - name: vertical_align_top
+    src: ./vertical_align_top.png
+  - name: siri
+    src: ./siri.png
+  - name: interconnect
+    src: ./interconnect.png
+  - name: flag_on_the_play
+    src: ./flag_on_the_play.jpeg
+  - name: margaritaparrot
+    src: ./margaritaparrot.gif
+  - name: fox
+    src: ./fox.png
+  - name: parrotmustache
+    src: ./parrotmustache.gif
+  - name: bfquestion
+    src: ./bfquestion.png
+  - name: swearing
+    src: ./swearing.gif
+  - name: briefcase_wanker
+    src: ./briefcase_wanker.jpeg
+  - name: phantom
+    src: ./phantom.png
+  - name: picklerick
+    src: ./picklerick.gif
+  - name: wreck-it-ralph
+    src: ./wreck-it-ralph.png
+  - name: autobot
+    src: ./autobot.png
+  - name: fmr
+    src: ./fmr.png
+  - name: puppeyface
+    src: ./puppeyface.png
+  - name: invision
+    src: ./invision.png
+  - name: huzzah
+    src: ./huzzah.jpeg
+  - name: fb-laugh
+    src: ./fb-laugh.gif
+  - name: bowie
+    src: ./bowie.png
+  - name: computer_2
+    src: ./computer_2.png
+  - name: backpack
+    src: ./backpack.png
+  - name: parrotcop
+    src: ./parrotcop.gif
+  - name: olaf2
+    src: ./olaf2.png
+  - name: hey-girl
+    src: ./hey-girl.png
+  - name: git-merge
+    src: ./git-merge.png
+  - name: pat-pat
+    src: ./pat-pat.gif
+  - name: rtj-3
+    src: ./rtj-3.png
+  - name: bird-person
+    src: ./bird-person.png
+  - name: nyanryan
+    src: ./nyanryan.gif
+  - name: walmart
+    src: ./walmart.png
